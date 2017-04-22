@@ -1,0 +1,1 @@
+cmd_drivers/soc/ti/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/soc/ti/built-in.o drivers/soc/ti/pm33xx.o drivers/soc/ti/wkup_m3_ipc.o 

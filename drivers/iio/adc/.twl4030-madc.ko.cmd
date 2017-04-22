@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/twl4030-madc.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/twl4030-madc.ko drivers/iio/adc/twl4030-madc.o drivers/iio/adc/twl4030-madc.mod.o ;  true

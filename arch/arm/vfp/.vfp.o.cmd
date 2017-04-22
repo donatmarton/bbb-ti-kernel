@@ -1,0 +1,1 @@
+cmd_arch/arm/vfp/vfp.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL  --no-warn-mismatch   -r -o arch/arm/vfp/vfp.o arch/arm/vfp/vfpmodule.o arch/arm/vfp/entry.o arch/arm/vfp/vfphw.o arch/arm/vfp/vfpsingle.o arch/arm/vfp/vfpdouble.o 

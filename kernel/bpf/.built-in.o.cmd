@@ -1,0 +1,1 @@
+cmd_kernel/bpf/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o kernel/bpf/built-in.o kernel/bpf/core.o kernel/bpf/syscall.o kernel/bpf/verifier.o kernel/bpf/inode.o kernel/bpf/helpers.o kernel/bpf/hashtab.o kernel/bpf/arraymap.o kernel/bpf/percpu_freelist.o kernel/bpf/stackmap.o 

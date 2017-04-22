@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/video/backlight/built-in.o drivers/video/backlight/backlight.o drivers/video/backlight/gpio_backlight.o drivers/video/backlight/pwm_bl.o drivers/video/backlight/tps65217_bl.o 

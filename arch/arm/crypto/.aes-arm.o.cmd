@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/aes-arm.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/crypto/aes-arm.o arch/arm/crypto/aes-armv4.o arch/arm/crypto/aes_glue.o 

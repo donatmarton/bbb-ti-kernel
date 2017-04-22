@@ -1,0 +1,1 @@
+cmd_sound/core/snd-pcm.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/core/snd-pcm.o sound/core/pcm.o sound/core/pcm_native.o sound/core/pcm_lib.o sound/core/pcm_misc.o sound/core/pcm_memory.o sound/core/memalloc.o sound/core/pcm_timer.o sound/core/pcm_drm_eld.o sound/core/pcm_iec958.o 

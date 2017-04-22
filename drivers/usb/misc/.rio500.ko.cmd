@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/rio500.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/misc/rio500.ko drivers/usb/misc/rio500.o drivers/usb/misc/rio500.mod.o ;  true

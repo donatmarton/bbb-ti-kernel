@@ -1,0 +1,2 @@
+kernel/drivers/net/dsa/b53/b53_common.ko
+kernel/drivers/net/dsa/b53/b53_mdio.ko

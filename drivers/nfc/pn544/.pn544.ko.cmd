@@ -1,0 +1,1 @@
+cmd_drivers/nfc/pn544/pn544.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/nfc/pn544/pn544.ko drivers/nfc/pn544/pn544.o drivers/nfc/pn544/pn544.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_net/9p/9pnet.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/9p/9pnet.o net/9p/mod.o net/9p/client.o net/9p/error.o net/9p/util.o net/9p/protocol.o net/9p/trans_fd.o net/9p/trans_common.o 

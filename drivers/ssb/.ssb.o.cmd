@@ -1,0 +1,1 @@
+cmd_drivers/ssb/ssb.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/ssb/ssb.o drivers/ssb/main.o drivers/ssb/scan.o drivers/ssb/sdio.o drivers/ssb/driver_chipcommon.o drivers/ssb/driver_chipcommon_pmu.o 

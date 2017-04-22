@@ -1,0 +1,1 @@
+cmd_net/6lowpan/6lowpan.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/6lowpan/6lowpan.o net/6lowpan/core.o net/6lowpan/iphc.o net/6lowpan/nhc.o net/6lowpan/ndisc.o 

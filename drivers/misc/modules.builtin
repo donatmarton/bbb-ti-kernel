@@ -1,0 +1,5 @@
+kernel/drivers/misc/bone_capemgr.ko
+kernel/drivers/misc/cape/beaglebone/bone-pinmux-helper.ko
+kernel/drivers/misc/cape_bone_argus/cape_bone_argus.ko
+kernel/drivers/misc/eeprom/at24.ko
+kernel/drivers/misc/eeprom/at25.ko

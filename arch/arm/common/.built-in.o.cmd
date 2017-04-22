@@ -1,0 +1,1 @@
+cmd_arch/arm/common/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/common/built-in.o arch/arm/common/firmware.o arch/arm/common/mcpm_head.o arch/arm/common/mcpm_entry.o arch/arm/common/mcpm_platsmp.o arch/arm/common/vlock.o 

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/bcm87xx.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/phy/bcm87xx.ko drivers/net/phy/bcm87xx.o drivers/net/phy/bcm87xx.mod.o ;  true

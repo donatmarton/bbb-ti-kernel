@@ -1,0 +1,1 @@
+cmd_drivers/target/tcm_fc/tcm_fc.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/target/tcm_fc/tcm_fc.o drivers/target/tcm_fc/tfc_cmd.o drivers/target/tcm_fc/tfc_conf.o drivers/target/tcm_fc/tfc_io.o drivers/target/tcm_fc/tfc_sess.o 

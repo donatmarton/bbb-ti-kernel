@@ -1,0 +1,1 @@
+cmd_drivers/dma/dw/dw_dmac_core.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/dma/dw/dw_dmac_core.o drivers/dma/dw/core.o 

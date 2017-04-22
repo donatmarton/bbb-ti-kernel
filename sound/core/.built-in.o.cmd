@@ -1,0 +1,1 @@
+cmd_sound/core/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/core/built-in.o sound/core/oss/built-in.o 

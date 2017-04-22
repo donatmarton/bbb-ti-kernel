@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/goodix.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/goodix.ko drivers/input/touchscreen/goodix.o drivers/input/touchscreen/goodix.mod.o ;  true

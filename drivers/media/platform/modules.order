@@ -1,0 +1,11 @@
+kernel/drivers/media/platform/ti-vpe/ti-vpe.ko
+kernel/drivers/media/platform/ti-vpe/ti-vpdma.ko
+kernel/drivers/media/platform/ti-vpe/ti-sc.ko
+kernel/drivers/media/platform/ti-vpe/ti-csc.ko
+kernel/drivers/media/platform/vivid/vivid.ko
+kernel/drivers/media/platform/m2m-deinterlace.ko
+kernel/drivers/media/platform/sti/c8sectpfe/c8sectpfe.ko
+kernel/drivers/media/platform/soc_camera/soc_camera.ko
+kernel/drivers/media/platform/soc_camera/soc_mediabus.ko
+kernel/drivers/media/platform/soc_camera/soc_camera_platform.ko
+kernel/drivers/media/platform/am437x/am437x-vpfe.ko

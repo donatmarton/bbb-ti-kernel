@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-twl6040.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/soc/codecs/snd-soc-twl6040.o sound/soc/codecs/twl6040.o 

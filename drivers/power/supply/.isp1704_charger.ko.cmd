@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/isp1704_charger.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/power/supply/isp1704_charger.ko drivers/power/supply/isp1704_charger.o drivers/power/supply/isp1704_charger.mod.o ;  true

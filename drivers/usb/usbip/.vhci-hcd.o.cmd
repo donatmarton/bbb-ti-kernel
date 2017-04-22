@@ -1,0 +1,1 @@
+cmd_drivers/usb/usbip/vhci-hcd.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/usbip/vhci-hcd.o drivers/usb/usbip/vhci_sysfs.o drivers/usb/usbip/vhci_tx.o drivers/usb/usbip/vhci_rx.o drivers/usb/usbip/vhci_hcd.o 

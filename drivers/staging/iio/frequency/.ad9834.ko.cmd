@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/frequency/ad9834.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/frequency/ad9834.ko drivers/staging/iio/frequency/ad9834.o drivers/staging/iio/frequency/ad9834.mod.o ;  true

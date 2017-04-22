@@ -1,0 +1,3 @@
+kernel/drivers/gpu/drm/omapdrm/displays/connector-analog-tv.ko
+kernel/drivers/gpu/drm/omapdrm/displays/panel-sony-acx565akm.ko
+kernel/drivers/gpu/drm/omapdrm/displays/panel-tpo-td043mtea1.ko

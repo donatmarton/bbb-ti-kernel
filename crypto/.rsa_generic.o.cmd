@@ -1,0 +1,1 @@
+cmd_crypto/rsa_generic.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o crypto/rsa_generic.o crypto/rsapubkey-asn1.o crypto/rsaprivkey-asn1.o crypto/rsa.o crypto/rsa_helper.o crypto/rsa-pkcs1pad.o 

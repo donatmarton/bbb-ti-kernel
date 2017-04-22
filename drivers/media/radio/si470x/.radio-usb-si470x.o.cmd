@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-usb-si470x.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/radio/si470x/radio-usb-si470x.o drivers/media/radio/si470x/radio-si470x-usb.o drivers/media/radio/si470x/radio-si470x-common.o 

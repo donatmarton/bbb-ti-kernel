@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_mod.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/target/target_core_mod.ko drivers/target/target_core_mod.o drivers/target/target_core_mod.mod.o ;  true

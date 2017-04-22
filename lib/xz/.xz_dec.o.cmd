@@ -1,0 +1,1 @@
+cmd_lib/xz/xz_dec.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o lib/xz/xz_dec.o lib/xz/xz_dec_syms.o lib/xz/xz_dec_stream.o lib/xz/xz_dec_lzma2.o lib/xz/xz_dec_bcj.o 

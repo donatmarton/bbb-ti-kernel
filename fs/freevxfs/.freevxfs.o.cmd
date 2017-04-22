@@ -1,0 +1,1 @@
+cmd_fs/freevxfs/freevxfs.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/freevxfs/freevxfs.o fs/freevxfs/vxfs_bmap.o fs/freevxfs/vxfs_fshead.o fs/freevxfs/vxfs_immed.o fs/freevxfs/vxfs_inode.o fs/freevxfs/vxfs_lookup.o fs/freevxfs/vxfs_olt.o fs/freevxfs/vxfs_subr.o fs/freevxfs/vxfs_super.o 

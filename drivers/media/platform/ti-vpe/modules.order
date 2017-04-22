@@ -1,0 +1,4 @@
+kernel/drivers/media/platform/ti-vpe/ti-vpe.ko
+kernel/drivers/media/platform/ti-vpe/ti-vpdma.ko
+kernel/drivers/media/platform/ti-vpe/ti-sc.ko
+kernel/drivers/media/platform/ti-vpe/ti-csc.ko

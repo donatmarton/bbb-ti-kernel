@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-xinmo.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-xinmo.ko drivers/hid/hid-xinmo.o drivers/hid/hid-xinmo.mod.o ;  true

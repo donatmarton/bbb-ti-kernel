@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt7601u/built-in.o :=  rm -f drivers/net/wireless/mediatek/mt7601u/built-in.o; /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcsD drivers/net/wireless/mediatek/mt7601u/built-in.o

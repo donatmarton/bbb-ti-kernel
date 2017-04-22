@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/hdpvr/hdpvr.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/hdpvr/hdpvr.o drivers/media/usb/hdpvr/hdpvr-control.o drivers/media/usb/hdpvr/hdpvr-core.o drivers/media/usb/hdpvr/hdpvr-video.o drivers/media/usb/hdpvr/hdpvr-i2c.o 

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/marvell/libertas_tf/libertas_tf.o drivers/net/wireless/marvell/libertas_tf/main.o drivers/net/wireless/marvell/libertas_tf/cmd.o 

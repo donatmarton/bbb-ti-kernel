@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/netfilter/ipset/ip_set.o net/netfilter/ipset/ip_set_core.o net/netfilter/ipset/ip_set_getport.o net/netfilter/ipset/pfxlen.o 

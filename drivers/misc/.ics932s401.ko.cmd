@@ -1,0 +1,1 @@
+cmd_drivers/misc/ics932s401.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/misc/ics932s401.ko drivers/misc/ics932s401.o drivers/misc/ics932s401.mod.o ;  true

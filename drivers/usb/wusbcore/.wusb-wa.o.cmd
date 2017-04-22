@@ -1,0 +1,1 @@
+cmd_drivers/usb/wusbcore/wusb-wa.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/wusbcore/wusb-wa.o drivers/usb/wusbcore/wa-hc.o drivers/usb/wusbcore/wa-nep.o drivers/usb/wusbcore/wa-rpipe.o drivers/usb/wusbcore/wa-xfer.o 

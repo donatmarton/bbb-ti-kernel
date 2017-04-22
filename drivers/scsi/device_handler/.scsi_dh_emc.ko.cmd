@@ -1,0 +1,1 @@
+cmd_drivers/scsi/device_handler/scsi_dh_emc.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/scsi/device_handler/scsi_dh_emc.ko drivers/scsi/device_handler/scsi_dh_emc.o drivers/scsi/device_handler/scsi_dh_emc.mod.o ;  true

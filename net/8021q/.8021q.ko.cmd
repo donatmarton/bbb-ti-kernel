@@ -1,0 +1,1 @@
+cmd_net/8021q/8021q.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/8021q/8021q.ko net/8021q/8021q.o net/8021q/8021q.mod.o ;  true

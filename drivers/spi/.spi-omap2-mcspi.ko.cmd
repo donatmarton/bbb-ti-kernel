@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-omap2-mcspi.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/spi/spi-omap2-mcspi.ko drivers/spi/spi-omap2-mcspi.o drivers/spi/spi-omap2-mcspi.mod.o ;  true

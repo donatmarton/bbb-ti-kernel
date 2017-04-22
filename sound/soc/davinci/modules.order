@@ -1,0 +1,4 @@
+kernel/sound/soc/davinci/snd-soc-edma.ko
+kernel/sound/soc/davinci/snd-soc-davinci-i2s.ko
+kernel/sound/soc/davinci/snd-soc-davinci-mcasp.ko
+kernel/sound/soc/davinci/snd-soc-evm.ko

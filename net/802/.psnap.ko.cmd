@@ -1,0 +1,1 @@
+cmd_net/802/psnap.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/802/psnap.ko net/802/psnap.o net/802/psnap.mod.o ;  true

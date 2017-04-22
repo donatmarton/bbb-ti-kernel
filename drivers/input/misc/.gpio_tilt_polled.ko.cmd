@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gpio_tilt_polled.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/gpio_tilt_polled.ko drivers/input/misc/gpio_tilt_polled.o drivers/input/misc/gpio_tilt_polled.mod.o ;  true

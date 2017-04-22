@@ -1,0 +1,1 @@
+cmd_drivers/irqchip/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/irqchip/built-in.o drivers/irqchip/irqchip.o drivers/irqchip/irq-omap-intc.o drivers/irqchip/irq-gic.o drivers/irqchip/irq-gic-common.o drivers/irqchip/irq-crossbar.o 

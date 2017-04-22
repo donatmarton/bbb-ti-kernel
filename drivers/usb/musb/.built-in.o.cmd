@@ -1,0 +1,1 @@
+cmd_drivers/usb/musb/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/musb/built-in.o drivers/usb/musb/musb_hdrc.o drivers/usb/musb/musb_dsps.o drivers/usb/musb/musb_am335x.o 

@@ -1,0 +1,1 @@
+cmd_net/nfc/nfc_digital.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/nfc/nfc_digital.ko net/nfc/nfc_digital.o net/nfc/nfc_digital.mod.o ;  true

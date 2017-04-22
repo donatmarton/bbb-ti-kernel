@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-dib0700.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/dvb-usb/dvb-usb-dib0700.o drivers/media/usb/dvb-usb/dib0700_core.o drivers/media/usb/dvb-usb/dib0700_devices.o 

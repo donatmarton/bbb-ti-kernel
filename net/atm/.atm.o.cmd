@@ -1,0 +1,1 @@
+cmd_net/atm/atm.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/atm/atm.o net/atm/addr.o net/atm/pvc.o net/atm/signaling.o net/atm/svc.o net/atm/ioctl.o net/atm/common.o net/atm/atm_misc.o net/atm/raw.o net/atm/resources.o net/atm/atm_sysfs.o net/atm/proc.o 

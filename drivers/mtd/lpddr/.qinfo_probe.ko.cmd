@@ -1,0 +1,1 @@
+cmd_drivers/mtd/lpddr/qinfo_probe.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mtd/lpddr/qinfo_probe.ko drivers/mtd/lpddr/qinfo_probe.o drivers/mtd/lpddr/qinfo_probe.mod.o ;  true

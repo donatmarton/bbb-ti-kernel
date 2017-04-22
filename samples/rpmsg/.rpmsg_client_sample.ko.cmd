@@ -1,0 +1,1 @@
+cmd_samples/rpmsg/rpmsg_client_sample.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o samples/rpmsg/rpmsg_client_sample.ko samples/rpmsg/rpmsg_client_sample.o samples/rpmsg/rpmsg_client_sample.mod.o ;  true

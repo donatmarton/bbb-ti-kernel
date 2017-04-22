@@ -1,0 +1,1 @@
+cmd_drivers/net/can/sja1000/sja1000.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/can/sja1000/sja1000.ko drivers/net/can/sja1000/sja1000.o drivers/net/can/sja1000/sja1000.mod.o ;  true

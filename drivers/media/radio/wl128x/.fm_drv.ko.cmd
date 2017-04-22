@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/wl128x/fm_drv.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/radio/wl128x/fm_drv.ko drivers/media/radio/wl128x/fm_drv.o drivers/media/radio/wl128x/fm_drv.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/ras/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/ras/built-in.o drivers/ras/ras.o drivers/ras/debugfs.o 

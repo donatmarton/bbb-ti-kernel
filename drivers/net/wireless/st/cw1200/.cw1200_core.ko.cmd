@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/st/cw1200/cw1200_core.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/st/cw1200/cw1200_core.ko drivers/net/wireless/st/cw1200/cw1200_core.o drivers/net/wireless/st/cw1200/cw1200_core.mod.o ;  true

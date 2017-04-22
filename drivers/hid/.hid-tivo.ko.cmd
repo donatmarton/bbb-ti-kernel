@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-tivo.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-tivo.ko drivers/hid/hid-tivo.o drivers/hid/hid-tivo.mod.o ;  true

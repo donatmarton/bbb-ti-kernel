@@ -1,0 +1,1 @@
+cmd_drivers/char/tpm/tpm.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/char/tpm/tpm.o drivers/char/tpm/tpm-interface.o drivers/char/tpm/tpm-dev.o drivers/char/tpm/tpm-sysfs.o drivers/char/tpm/tpm-chip.o drivers/char/tpm/tpm2-cmd.o 

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/libphy.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/phy/libphy.o drivers/net/phy/phy.o drivers/net/phy/phy_device.o drivers/net/phy/mdio_bus.o drivers/net/phy/mdio_device.o drivers/net/phy/swphy.o 

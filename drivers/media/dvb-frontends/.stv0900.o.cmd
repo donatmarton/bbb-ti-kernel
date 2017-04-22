@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0900.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/stv0900.o drivers/media/dvb-frontends/stv0900_core.o drivers/media/dvb-frontends/stv0900_sw.o 

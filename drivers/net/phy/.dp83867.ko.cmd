@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/dp83867.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/phy/dp83867.ko drivers/net/phy/dp83867.o drivers/net/phy/dp83867.mod.o ;  true

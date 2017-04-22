@@ -1,0 +1,2 @@
+kernel/drivers/regulator/anatop-regulator.ko
+kernel/drivers/regulator/vexpress-regulator.ko

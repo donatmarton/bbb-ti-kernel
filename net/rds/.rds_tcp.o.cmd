@@ -1,0 +1,1 @@
+cmd_net/rds/rds_tcp.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/rds/rds_tcp.o net/rds/tcp.o net/rds/tcp_connect.o net/rds/tcp_listen.o net/rds/tcp_recv.o net/rds/tcp_send.o net/rds/tcp_stats.o 

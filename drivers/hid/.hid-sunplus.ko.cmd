@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-sunplus.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-sunplus.ko drivers/hid/hid-sunplus.o drivers/hid/hid-sunplus.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/greybus/gb-firmware.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/staging/greybus/gb-firmware.o drivers/staging/greybus/fw-core.o drivers/staging/greybus/fw-download.o drivers/staging/greybus/fw-management.o drivers/staging/greybus/authentication.o 

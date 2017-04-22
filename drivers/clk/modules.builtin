@@ -1,0 +1,3 @@
+kernel/drivers/clk/clk-palmas.ko
+kernel/drivers/clk/clk-twl6040.ko
+kernel/drivers/clk/ti/adpll.ko

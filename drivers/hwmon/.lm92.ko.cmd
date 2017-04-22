@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/lm92.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/lm92.ko drivers/hwmon/lm92.o drivers/hwmon/lm92.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/virtio_scsi.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/scsi/virtio_scsi.ko drivers/scsi/virtio_scsi.o drivers/scsi/virtio_scsi.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-dmic.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-dmic.ko sound/soc/codecs/snd-soc-dmic.o sound/soc/codecs/snd-soc-dmic.mod.o ;  true

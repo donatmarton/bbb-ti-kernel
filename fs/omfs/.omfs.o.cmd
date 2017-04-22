@@ -1,0 +1,1 @@
+cmd_fs/omfs/omfs.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/omfs/omfs.o fs/omfs/bitmap.o fs/omfs/dir.o fs/omfs/file.o fs/omfs/inode.o 

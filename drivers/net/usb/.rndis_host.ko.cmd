@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/rndis_host.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/rndis_host.ko drivers/net/usb/rndis_host.o drivers/net/usb/rndis_host.mod.o ;  true

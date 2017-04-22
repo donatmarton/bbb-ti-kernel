@@ -1,0 +1,1 @@
+cmd_crypto/rmd128.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o crypto/rmd128.ko crypto/rmd128.o crypto/rmd128.mod.o ;  true

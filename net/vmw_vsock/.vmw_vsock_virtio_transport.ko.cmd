@@ -1,0 +1,1 @@
+cmd_net/vmw_vsock/vmw_vsock_virtio_transport.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/vmw_vsock/vmw_vsock_virtio_transport.ko net/vmw_vsock/vmw_vsock_virtio_transport.o net/vmw_vsock/vmw_vsock_virtio_transport.mod.o ;  true

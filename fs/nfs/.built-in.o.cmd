@@ -1,0 +1,1 @@
+cmd_fs/nfs/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/nfs/built-in.o fs/nfs/nfs.o fs/nfs/nfsv2.o fs/nfs/nfsv3.o fs/nfs/nfsv4.o fs/nfs/filelayout/built-in.o 

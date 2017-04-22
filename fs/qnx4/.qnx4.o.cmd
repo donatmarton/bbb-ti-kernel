@@ -1,0 +1,1 @@
+cmd_fs/qnx4/qnx4.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/qnx4/qnx4.o fs/qnx4/inode.o fs/qnx4/dir.o fs/qnx4/namei.o fs/qnx4/bitmap.o 

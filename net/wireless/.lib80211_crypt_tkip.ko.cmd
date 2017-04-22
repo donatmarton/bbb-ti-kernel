@@ -1,0 +1,1 @@
+cmd_net/wireless/lib80211_crypt_tkip.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/wireless/lib80211_crypt_tkip.ko net/wireless/lib80211_crypt_tkip.o net/wireless/lib80211_crypt_tkip.mod.o ;  true

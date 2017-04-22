@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_usb.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/ath/ath6kl/ath6kl_usb.o drivers/net/wireless/ath/ath6kl/usb.o 

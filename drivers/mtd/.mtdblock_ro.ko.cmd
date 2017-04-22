@@ -1,0 +1,1 @@
+cmd_drivers/mtd/mtdblock_ro.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mtd/mtdblock_ro.ko drivers/mtd/mtdblock_ro.o drivers/mtd/mtdblock_ro.mod.o ;  true

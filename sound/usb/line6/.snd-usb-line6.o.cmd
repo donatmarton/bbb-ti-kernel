@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-line6.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/usb/line6/snd-usb-line6.o sound/usb/line6/capture.o sound/usb/line6/driver.o sound/usb/line6/midi.o sound/usb/line6/midibuf.o sound/usb/line6/pcm.o sound/usb/line6/playback.o 

@@ -1,0 +1,1 @@
+cmd_drivers/scsi/libsas/libsas.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/scsi/libsas/libsas.ko drivers/scsi/libsas/libsas.o drivers/scsi/libsas/libsas.mod.o ;  true

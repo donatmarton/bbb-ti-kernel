@@ -1,0 +1,4 @@
+kernel/drivers/rpmsg/rpmsg_core.ko
+kernel/drivers/rpmsg/virtio_rpmsg_bus.ko
+kernel/drivers/rpmsg/rpmsg-rpc.ko
+kernel/drivers/rpmsg/rpmsg_pru.ko

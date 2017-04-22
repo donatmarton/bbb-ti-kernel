@@ -1,0 +1,1 @@
+cmd_sound/core/seq/oss/snd-seq-oss.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/core/seq/oss/snd-seq-oss.ko sound/core/seq/oss/snd-seq-oss.o sound/core/seq/oss/snd-seq-oss.mod.o ;  true

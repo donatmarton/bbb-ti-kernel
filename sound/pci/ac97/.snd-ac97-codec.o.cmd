@@ -1,0 +1,1 @@
+cmd_sound/pci/ac97/snd-ac97-codec.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/pci/ac97/snd-ac97-codec.o sound/pci/ac97/ac97_codec.o sound/pci/ac97/ac97_pcm.o sound/pci/ac97/ac97_proc.o 

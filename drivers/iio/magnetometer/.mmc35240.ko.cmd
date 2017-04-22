@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/mmc35240.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/mmc35240.ko drivers/iio/magnetometer/mmc35240.o drivers/iio/magnetometer/mmc35240.mod.o ;  true

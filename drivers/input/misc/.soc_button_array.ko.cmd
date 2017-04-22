@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/soc_button_array.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/soc_button_array.ko drivers/input/misc/soc_button_array.o drivers/input/misc/soc_button_array.mod.o ;  true

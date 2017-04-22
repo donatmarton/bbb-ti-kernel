@@ -1,0 +1,1 @@
+cmd_drivers/media/common/v4l2-tpg/v4l2-tpg.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/common/v4l2-tpg/v4l2-tpg.o drivers/media/common/v4l2-tpg/v4l2-tpg-core.o drivers/media/common/v4l2-tpg/v4l2-tpg-colors.o 

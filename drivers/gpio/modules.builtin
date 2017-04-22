@@ -1,0 +1,7 @@
+kernel/drivers/gpio/gpio-generic.ko
+kernel/drivers/gpio/gpio-omap.ko
+kernel/drivers/gpio/gpio-pca953x.ko
+kernel/drivers/gpio/gpio-syscon.ko
+kernel/drivers/gpio/gpio-tps65218.ko
+kernel/drivers/gpio/gpio-twl4030.ko
+kernel/drivers/gpio/gpio-twl6040.ko

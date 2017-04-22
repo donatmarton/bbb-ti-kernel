@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/st_gyro.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/gyro/st_gyro.ko drivers/iio/gyro/st_gyro.o drivers/iio/gyro/st_gyro.mod.o ;  true

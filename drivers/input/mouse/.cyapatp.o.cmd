@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/cyapatp.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/mouse/cyapatp.o drivers/input/mouse/cyapa.o drivers/input/mouse/cyapa_gen3.o drivers/input/mouse/cyapa_gen5.o drivers/input/mouse/cyapa_gen6.o 
