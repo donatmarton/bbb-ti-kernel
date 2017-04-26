@@ -1,1 +1,1 @@
-# bbb-ti-kernel-4.9
+# bbb-ti-kernel
