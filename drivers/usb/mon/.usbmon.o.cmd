@@ -1,1 +1,0 @@
-cmd_drivers/usb/mon/usbmon.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/mon/usbmon.o drivers/usb/mon/mon_main.o drivers/usb/mon/mon_stat.o drivers/usb/mon/mon_text.o drivers/usb/mon/mon_bin.o 

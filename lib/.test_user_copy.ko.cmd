@@ -1,1 +1,0 @@
-cmd_lib/test_user_copy.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o lib/test_user_copy.ko lib/test_user_copy.o lib/test_user_copy.mod.o ;  true

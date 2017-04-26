@@ -1,1 +1,0 @@
-cmd_drivers/staging/wilc1000/wilc1000-sdio.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/wilc1000/wilc1000-sdio.ko drivers/staging/wilc1000/wilc1000-sdio.o drivers/staging/wilc1000/wilc1000-sdio.mod.o ;  true

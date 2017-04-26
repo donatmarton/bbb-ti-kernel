@@ -1,1 +1,0 @@
-cmd_drivers/i2c/busses/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/i2c/busses/built-in.o drivers/i2c/busses/i2c-gpio.o drivers/i2c/busses/i2c-omap.o 

@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-snapshot.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/md/dm-snapshot.o drivers/md/dm-snap.o drivers/md/dm-exception-store.o drivers/md/dm-snap-transient.o drivers/md/dm-snap-persistent.o 

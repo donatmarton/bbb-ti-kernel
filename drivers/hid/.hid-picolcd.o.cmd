@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-picolcd.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/hid-picolcd.o drivers/hid/hid-picolcd_core.o drivers/hid/hid-picolcd_fb.o drivers/hid/hid-picolcd_backlight.o drivers/hid/hid-picolcd_leds.o drivers/hid/hid-picolcd_cir.o drivers/hid/hid-picolcd_debugfs.o 

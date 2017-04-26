@@ -1,1 +1,0 @@
-cmd_firmware/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o firmware/built-in.o firmware/am335x-pm-firmware.elf.gen.o firmware/am335x-bone-scale-data.bin.gen.o firmware/am335x-evm-scale-data.bin.gen.o firmware/am43x-evm-scale-data.bin.gen.o 

@@ -1,8 +1,0 @@
-kernel/drivers/gpu/drm/omapdrm/displays/connector-analog-tv.ko
-kernel/drivers/gpu/drm/omapdrm/displays/panel-sony-acx565akm.ko
-kernel/drivers/gpu/drm/omapdrm/displays/panel-tpo-td043mtea1.ko
-kernel/drivers/gpu/drm/i2c/adihdmi.ko
-kernel/drivers/gpu/drm/ttm/ttm.ko
-kernel/drivers/gpu/drm/vgem/vgem.ko
-kernel/drivers/gpu/drm/udl/udl.ko
-kernel/drivers/gpu/drm/virtio/virtio-gpu.ko

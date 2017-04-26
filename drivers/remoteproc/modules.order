@@ -1,5 +1,0 @@
-kernel/drivers/remoteproc/omap_remoteproc.ko
-kernel/drivers/remoteproc/pruss_soc_bus.ko
-kernel/drivers/remoteproc/pruss.ko
-kernel/drivers/remoteproc/pruss_intc.ko
-kernel/drivers/remoteproc/pru_rproc.ko

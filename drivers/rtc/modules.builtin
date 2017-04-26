@@ -1,8 +1,0 @@
-kernel/drivers/rtc/rtc-ds1307.ko
-kernel/drivers/rtc/rtc-omap.ko
-kernel/drivers/rtc/rtc-palmas.ko
-kernel/drivers/rtc/rtc-pcf8523.ko
-kernel/drivers/rtc/rtc-pcf8563.ko
-kernel/drivers/rtc/rtc-s5m.ko
-kernel/drivers/rtc/rtc-snvs.ko
-kernel/drivers/rtc/rtc-twl.ko

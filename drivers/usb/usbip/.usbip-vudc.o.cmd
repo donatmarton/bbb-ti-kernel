@@ -1,1 +1,0 @@
-cmd_drivers/usb/usbip/usbip-vudc.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/usbip/usbip-vudc.o drivers/usb/usbip/vudc_dev.o drivers/usb/usbip/vudc_sysfs.o drivers/usb/usbip/vudc_tx.o drivers/usb/usbip/vudc_rx.o drivers/usb/usbip/vudc_transfer.o drivers/usb/usbip/vudc_main.o 

@@ -1,1 +1,0 @@
-cmd_drivers/net/can/c_can/c_can.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/can/c_can/c_can.ko drivers/net/can/c_can/c_can.o drivers/net/can/c_can/c_can.mod.o ;  true

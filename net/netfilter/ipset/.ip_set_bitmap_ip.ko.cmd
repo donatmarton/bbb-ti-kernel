@@ -1,1 +1,0 @@
-cmd_net/netfilter/ipset/ip_set_bitmap_ip.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_bitmap_ip.ko net/netfilter/ipset/ip_set_bitmap_ip.o net/netfilter/ipset/ip_set_bitmap_ip.mod.o ;  true

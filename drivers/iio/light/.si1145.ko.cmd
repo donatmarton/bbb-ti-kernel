@@ -1,1 +1,0 @@
-cmd_drivers/iio/light/si1145.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/light/si1145.ko drivers/iio/light/si1145.o drivers/iio/light/si1145.mod.o ;  true

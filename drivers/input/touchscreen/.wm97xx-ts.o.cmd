@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/wm97xx-ts.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/touchscreen/wm97xx-ts.o drivers/input/touchscreen/wm97xx-core.o drivers/input/touchscreen/wm9705.o drivers/input/touchscreen/wm9712.o drivers/input/touchscreen/wm9713.o 

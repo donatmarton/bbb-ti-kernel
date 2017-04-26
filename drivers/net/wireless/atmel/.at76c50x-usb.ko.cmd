@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/atmel/at76c50x-usb.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/atmel/at76c50x-usb.ko drivers/net/wireless/atmel/at76c50x-usb.o drivers/net/wireless/atmel/at76c50x-usb.mod.o ;  true

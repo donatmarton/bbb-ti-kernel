@@ -1,1 +1,0 @@
-cmd_fs/ocfs2/ocfs2_stack_o2cb.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/ocfs2/ocfs2_stack_o2cb.o fs/ocfs2/stack_o2cb.o 

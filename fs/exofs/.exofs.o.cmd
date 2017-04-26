@@ -1,1 +1,0 @@
-cmd_fs/exofs/exofs.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/exofs/exofs.o fs/exofs/inode.o fs/exofs/file.o fs/exofs/namei.o fs/exofs/dir.o fs/exofs/super.o fs/exofs/sys.o 

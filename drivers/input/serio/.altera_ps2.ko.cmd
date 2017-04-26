@@ -1,1 +1,0 @@
-cmd_drivers/input/serio/altera_ps2.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/serio/altera_ps2.ko drivers/input/serio/altera_ps2.o drivers/input/serio/altera_ps2.mod.o ;  true

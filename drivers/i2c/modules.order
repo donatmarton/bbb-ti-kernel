@@ -1,5 +1,0 @@
-kernel/drivers/i2c/busses/i2c-diolan-u2c.ko
-kernel/drivers/i2c/busses/i2c-robotfuzz-osif.ko
-kernel/drivers/i2c/busses/i2c-taos-evm.ko
-kernel/drivers/i2c/busses/i2c-tiny-usb.ko
-kernel/drivers/i2c/muxes/i2c-arb-gpio-challenge.ko

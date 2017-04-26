@@ -1,1 +1,0 @@
-cmd_drivers/usb/host/xhci-hcd.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/host/xhci-hcd.o drivers/usb/host/xhci.o drivers/usb/host/xhci-mem.o drivers/usb/host/xhci-ring.o drivers/usb/host/xhci-hub.o drivers/usb/host/xhci-dbg.o drivers/usb/host/xhci-trace.o 

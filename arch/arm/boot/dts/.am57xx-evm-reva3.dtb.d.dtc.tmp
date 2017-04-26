@@ -1,1 +1,0 @@
-arch/arm/boot/dts/am57xx-evm-reva3.dtb: arch/arm/boot/dts/.am57xx-evm-reva3.dtb.dts.tmp arch/arm/boot/dts/dra7xx-clocks.dtsi

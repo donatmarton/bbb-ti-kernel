@@ -1,1 +1,0 @@
-cmd_net/nfc/nfc_digital.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/nfc/nfc_digital.o net/nfc/digital_core.o net/nfc/digital_technology.o net/nfc/digital_dep.o 

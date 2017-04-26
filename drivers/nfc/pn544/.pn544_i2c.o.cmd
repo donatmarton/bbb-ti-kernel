@@ -1,1 +1,0 @@
-cmd_drivers/nfc/pn544/pn544_i2c.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/nfc/pn544/pn544_i2c.o drivers/nfc/pn544/i2c.o 

@@ -1,1 +1,0 @@
-cmd_drivers/input/input-polldev.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/input-polldev.ko drivers/input/input-polldev.o drivers/input/input-polldev.mod.o ;  true

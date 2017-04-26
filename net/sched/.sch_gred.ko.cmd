@@ -1,1 +1,0 @@
-cmd_net/sched/sch_gred.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/sch_gred.ko net/sched/sch_gred.o net/sched/sch_gred.mod.o ;  true

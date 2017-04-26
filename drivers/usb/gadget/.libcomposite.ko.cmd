@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/libcomposite.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/libcomposite.ko drivers/usb/gadget/libcomposite.o drivers/usb/gadget/libcomposite.mod.o ;  true

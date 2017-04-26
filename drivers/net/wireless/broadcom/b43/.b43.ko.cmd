@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/broadcom/b43/b43.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/broadcom/b43/b43.ko drivers/net/wireless/broadcom/b43/b43.o drivers/net/wireless/broadcom/b43/b43.mod.o ;  true

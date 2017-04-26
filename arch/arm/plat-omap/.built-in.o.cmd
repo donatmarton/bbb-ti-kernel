@@ -1,1 +1,0 @@
-cmd_arch/arm/plat-omap/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/plat-omap/built-in.o arch/arm/plat-omap/sram.o arch/arm/plat-omap/dma.o arch/arm/plat-omap/counter_32k.o arch/arm/plat-omap/dmtimer.o arch/arm/plat-omap/i2c.o 

@@ -1,1 +1,0 @@
-cmd_drivers/iio/gyro/adxrs450.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/gyro/adxrs450.ko drivers/iio/gyro/adxrs450.o drivers/iio/gyro/adxrs450.mod.o ;  true

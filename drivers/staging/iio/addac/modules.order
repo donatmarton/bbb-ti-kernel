@@ -1,3 +1,0 @@
-kernel/drivers/staging/iio/addac/adt7316.ko
-kernel/drivers/staging/iio/addac/adt7316-spi.ko
-kernel/drivers/staging/iio/addac/adt7316-i2c.ko

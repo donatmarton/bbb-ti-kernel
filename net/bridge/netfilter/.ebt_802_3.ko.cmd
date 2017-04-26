@@ -1,1 +1,0 @@
-cmd_net/bridge/netfilter/ebt_802_3.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_802_3.ko net/bridge/netfilter/ebt_802_3.o net/bridge/netfilter/ebt_802_3.mod.o ;  true

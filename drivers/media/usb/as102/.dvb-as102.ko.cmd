@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/as102/dvb-as102.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/as102/dvb-as102.ko drivers/media/usb/as102/dvb-as102.o drivers/media/usb/as102/dvb-as102.mod.o ;  true

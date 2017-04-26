@@ -1,1 +1,0 @@
-cmd_drivers/power/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/power/built-in.o drivers/power/avs/built-in.o drivers/power/supply/built-in.o 

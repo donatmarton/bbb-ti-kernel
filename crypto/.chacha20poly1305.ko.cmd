@@ -1,1 +1,0 @@
-cmd_crypto/chacha20poly1305.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o crypto/chacha20poly1305.ko crypto/chacha20poly1305.o crypto/chacha20poly1305.mod.o ;  true

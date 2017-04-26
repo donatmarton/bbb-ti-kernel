@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/rsi/rsi_sdio.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/rsi/rsi_sdio.o drivers/net/wireless/rsi/rsi_91x_sdio.o drivers/net/wireless/rsi/rsi_91x_sdio_ops.o 

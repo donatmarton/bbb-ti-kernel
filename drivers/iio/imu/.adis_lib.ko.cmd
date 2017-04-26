@@ -1,1 +1,0 @@
-cmd_drivers/iio/imu/adis_lib.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/imu/adis_lib.ko drivers/iio/imu/adis_lib.o drivers/iio/imu/adis_lib.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/hid/hid-logitech.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/hid-logitech.o drivers/hid/hid-lg.o drivers/hid/hid-lgff.o drivers/hid/hid-lg2ff.o drivers/hid/hid-lg3ff.o drivers/hid/hid-lg4ff.o 

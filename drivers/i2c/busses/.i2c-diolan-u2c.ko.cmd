@@ -1,1 +1,0 @@
-cmd_drivers/i2c/busses/i2c-diolan-u2c.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-diolan-u2c.ko drivers/i2c/busses/i2c-diolan-u2c.o drivers/i2c/busses/i2c-diolan-u2c.mod.o ;  true

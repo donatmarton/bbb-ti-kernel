@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/ath/ath10k/ath10k_core.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ath10k/ath10k_core.ko drivers/net/wireless/ath/ath10k/ath10k_core.o drivers/net/wireless/ath/ath10k/ath10k_core.mod.o ;  true

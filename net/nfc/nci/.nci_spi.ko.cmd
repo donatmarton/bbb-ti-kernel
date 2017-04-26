@@ -1,1 +1,0 @@
-cmd_net/nfc/nci/nci_spi.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/nfc/nci/nci_spi.ko net/nfc/nci/nci_spi.o net/nfc/nci/nci_spi.mod.o ;  true

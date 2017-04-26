@@ -1,1 +1,0 @@
-cmd_drivers/iio/magnetometer/st_magn.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/magnetometer/st_magn.o drivers/iio/magnetometer/st_magn_core.o drivers/iio/magnetometer/st_magn_buffer.o 

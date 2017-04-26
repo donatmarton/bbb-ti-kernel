@@ -1,1 +1,0 @@
-cmd_drivers/iio/magnetometer/bmc150_magn_spi.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/bmc150_magn_spi.ko drivers/iio/magnetometer/bmc150_magn_spi.o drivers/iio/magnetometer/bmc150_magn_spi.mod.o ;  true

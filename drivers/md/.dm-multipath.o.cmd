@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-multipath.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/md/dm-multipath.o drivers/md/dm-path-selector.o drivers/md/dm-mpath.o 

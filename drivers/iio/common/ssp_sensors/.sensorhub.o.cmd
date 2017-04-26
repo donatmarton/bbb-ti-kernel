@@ -1,1 +1,0 @@
-cmd_drivers/iio/common/ssp_sensors/sensorhub.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/common/ssp_sensors/sensorhub.o drivers/iio/common/ssp_sensors/ssp_dev.o drivers/iio/common/ssp_sensors/ssp_spi.o 

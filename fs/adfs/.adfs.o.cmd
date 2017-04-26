@@ -1,1 +1,0 @@
-cmd_fs/adfs/adfs.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/adfs/adfs.o fs/adfs/dir.o fs/adfs/dir_f.o fs/adfs/dir_fplus.o fs/adfs/file.o fs/adfs/inode.o fs/adfs/map.o fs/adfs/super.o 

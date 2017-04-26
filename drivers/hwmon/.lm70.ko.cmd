@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/lm70.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/lm70.ko drivers/hwmon/lm70.o drivers/hwmon/lm70.mod.o ;  true

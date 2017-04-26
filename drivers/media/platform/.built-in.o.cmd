@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/platform/built-in.o drivers/media/platform/ti-vpe/built-in.o drivers/media/platform/omap/built-in.o 

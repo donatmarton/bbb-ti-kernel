@@ -1,1 +1,0 @@
-cmd_fs/ufs/ufs.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/ufs/ufs.o fs/ufs/balloc.o fs/ufs/cylinder.o fs/ufs/dir.o fs/ufs/file.o fs/ufs/ialloc.o fs/ufs/inode.o fs/ufs/namei.o fs/ufs/super.o fs/ufs/util.o 

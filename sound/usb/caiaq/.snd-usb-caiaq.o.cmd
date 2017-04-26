@@ -1,1 +1,0 @@
-cmd_sound/usb/caiaq/snd-usb-caiaq.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/usb/caiaq/snd-usb-caiaq.o sound/usb/caiaq/device.o sound/usb/caiaq/audio.o sound/usb/caiaq/midi.o sound/usb/caiaq/control.o sound/usb/caiaq/input.o 

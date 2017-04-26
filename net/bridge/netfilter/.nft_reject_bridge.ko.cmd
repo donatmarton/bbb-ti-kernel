@@ -1,1 +1,0 @@
-cmd_net/bridge/netfilter/nft_reject_bridge.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/bridge/netfilter/nft_reject_bridge.ko net/bridge/netfilter/nft_reject_bridge.o net/bridge/netfilter/nft_reject_bridge.mod.o ;  true

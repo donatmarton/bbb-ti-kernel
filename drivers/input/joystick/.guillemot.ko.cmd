@@ -1,1 +1,0 @@
-cmd_drivers/input/joystick/guillemot.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/joystick/guillemot.ko drivers/input/joystick/guillemot.o drivers/input/joystick/guillemot.mod.o ;  true

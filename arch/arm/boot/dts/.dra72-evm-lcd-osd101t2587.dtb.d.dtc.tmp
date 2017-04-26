@@ -1,1 +1,0 @@
-arch/arm/boot/dts/dra72-evm-lcd-osd101t2587.dtb: arch/arm/boot/dts/.dra72-evm-lcd-osd101t2587.dtb.dts.tmp arch/arm/boot/dts/dra7xx-clocks.dtsi

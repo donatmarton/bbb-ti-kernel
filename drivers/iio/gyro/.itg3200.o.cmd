@@ -1,1 +1,0 @@
-cmd_drivers/iio/gyro/itg3200.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/gyro/itg3200.o drivers/iio/gyro/itg3200_core.o drivers/iio/gyro/itg3200_buffer.o 

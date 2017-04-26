@@ -1,1 +1,0 @@
-cmd_drivers/net/can/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/can/built-in.o drivers/net/can/rcar/built-in.o drivers/net/can/spi/built-in.o drivers/net/can/usb/built-in.o drivers/net/can/softing/built-in.o 

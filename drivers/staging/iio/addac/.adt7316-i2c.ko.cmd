@@ -1,1 +1,0 @@
-cmd_drivers/staging/iio/addac/adt7316-i2c.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/addac/adt7316-i2c.ko drivers/staging/iio/addac/adt7316-i2c.o drivers/staging/iio/addac/adt7316-i2c.mod.o ;  true

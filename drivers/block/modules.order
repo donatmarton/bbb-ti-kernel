@@ -1,9 +1,0 @@
-kernel/drivers/block/brd.ko
-kernel/drivers/block/loop.ko
-kernel/drivers/block/osdblk.ko
-kernel/drivers/block/nbd.ko
-kernel/drivers/block/virtio_blk.ko
-kernel/drivers/block/drbd/drbd.ko
-kernel/drivers/block/rbd.ko
-kernel/drivers/block/null_blk.ko
-kernel/drivers/block/zram/zram.ko

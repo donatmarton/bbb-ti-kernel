@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.ko drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.o drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.mod.o ;  true

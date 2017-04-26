@@ -1,1 +1,0 @@
-cmd_fs/quota/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/quota/built-in.o fs/quota/dquot.o fs/quota/quota.o fs/quota/kqid.o fs/quota/netlink.o 

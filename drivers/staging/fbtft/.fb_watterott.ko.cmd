@@ -1,1 +1,0 @@
-cmd_drivers/staging/fbtft/fb_watterott.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/fbtft/fb_watterott.ko drivers/staging/fbtft/fb_watterott.o drivers/staging/fbtft/fb_watterott.mod.o ;  true

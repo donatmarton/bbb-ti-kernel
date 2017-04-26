@@ -1,1 +1,0 @@
-cmd_drivers/nvme/target/nvmet.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/nvme/target/nvmet.o drivers/nvme/target/core.o drivers/nvme/target/configfs.o drivers/nvme/target/admin-cmd.o drivers/nvme/target/io-cmd.o drivers/nvme/target/fabrics-cmd.o drivers/nvme/target/discovery.o 

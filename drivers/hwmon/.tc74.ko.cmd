@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/tc74.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/tc74.ko drivers/hwmon/tc74.o drivers/hwmon/tc74.mod.o ;  true

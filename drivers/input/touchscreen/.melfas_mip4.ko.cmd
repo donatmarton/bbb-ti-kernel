@@ -1,1 +1,0 @@
-cmd_drivers/input/touchscreen/melfas_mip4.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/melfas_mip4.ko drivers/input/touchscreen/melfas_mip4.o drivers/input/touchscreen/melfas_mip4.mod.o ;  true

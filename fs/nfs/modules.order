@@ -1,3 +1,0 @@
-kernel/fs/nfs/objlayout/objlayoutdriver.ko
-kernel/fs/nfs/blocklayout/blocklayoutdriver.ko
-kernel/fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko

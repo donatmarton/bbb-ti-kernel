@@ -1,1 +1,0 @@
-cmd_fs/nls/mac-greek.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/nls/mac-greek.ko fs/nls/mac-greek.o fs/nls/mac-greek.mod.o ;  true

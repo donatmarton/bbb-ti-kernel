@@ -1,1 +1,0 @@
-cmd_drivers/scsi/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/scsi/built-in.o drivers/scsi/scsi_mod.o drivers/scsi/device_handler/built-in.o drivers/scsi/arm/built-in.o drivers/scsi/sd_mod.o 

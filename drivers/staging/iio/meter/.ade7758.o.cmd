@@ -1,1 +1,0 @@
-cmd_drivers/staging/iio/meter/ade7758.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/staging/iio/meter/ade7758.o drivers/staging/iio/meter/ade7758_core.o drivers/staging/iio/meter/ade7758_ring.o drivers/staging/iio/meter/ade7758_trigger.o 

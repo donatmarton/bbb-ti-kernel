@@ -1,1 +1,0 @@
-cmd_drivers/rtc/rtc-m41t80.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-m41t80.ko drivers/rtc/rtc-m41t80.o drivers/rtc/rtc-m41t80.mod.o ;  true

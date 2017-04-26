@@ -1,1 +1,0 @@
-cmd_arch/arm/probes/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/probes/built-in.o arch/arm/probes/decode.o arch/arm/probes/decode-arm.o arch/arm/probes/uprobes/built-in.o arch/arm/probes/kprobes/built-in.o 

@@ -1,1 +1,0 @@
-cmd_drivers/net/can/softing/softing.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/can/softing/softing.o drivers/net/can/softing/softing_main.o drivers/net/can/softing/softing_fw.o 

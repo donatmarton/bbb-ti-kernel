@@ -1,1 +1,0 @@
-cmd_net/8021q/8021q.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/8021q/8021q.o net/8021q/vlan.o net/8021q/vlan_dev.o net/8021q/vlan_netlink.o net/8021q/vlan_gvrp.o net/8021q/vlan_mvrp.o net/8021q/vlanproc.o 

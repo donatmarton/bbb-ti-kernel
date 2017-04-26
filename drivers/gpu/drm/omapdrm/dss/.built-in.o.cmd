@@ -1,1 +1,0 @@
-cmd_drivers/gpu/drm/omapdrm/dss/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/gpu/drm/omapdrm/dss/built-in.o drivers/gpu/drm/omapdrm/dss/omapdss-boot-init.o drivers/gpu/drm/omapdrm/dss/omapdss-base.o drivers/gpu/drm/omapdrm/dss/omapdss.o 

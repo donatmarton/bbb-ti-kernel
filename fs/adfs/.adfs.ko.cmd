@@ -1,1 +1,0 @@
-cmd_fs/adfs/adfs.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/adfs/adfs.ko fs/adfs/adfs.o fs/adfs/adfs.mod.o ;  true

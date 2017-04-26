@@ -1,1 +1,0 @@
-cmd_drivers/usb/serial/ch341.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/ch341.ko drivers/usb/serial/ch341.o drivers/usb/serial/ch341.mod.o ;  true

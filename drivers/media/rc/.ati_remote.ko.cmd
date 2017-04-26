@@ -1,1 +1,0 @@
-cmd_drivers/media/rc/ati_remote.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/ati_remote.ko drivers/media/rc/ati_remote.o drivers/media/rc/ati_remote.mod.o ;  true

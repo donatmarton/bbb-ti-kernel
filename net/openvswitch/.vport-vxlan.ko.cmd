@@ -1,1 +1,0 @@
-cmd_net/openvswitch/vport-vxlan.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/openvswitch/vport-vxlan.ko net/openvswitch/vport-vxlan.o net/openvswitch/vport-vxlan.mod.o ;  true

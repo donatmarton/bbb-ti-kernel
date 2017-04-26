@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/max6697.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/max6697.ko drivers/hwmon/max6697.o drivers/hwmon/max6697.mod.o ;  true

@@ -1,1 +1,0 @@
-cmd_drivers/input/keyboard/qt1070.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/qt1070.ko drivers/input/keyboard/qt1070.o drivers/input/keyboard/qt1070.mod.o ;  true

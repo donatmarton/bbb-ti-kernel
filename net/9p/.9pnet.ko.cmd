@@ -1,1 +1,0 @@
-cmd_net/9p/9pnet.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/9p/9pnet.ko net/9p/9pnet.o net/9p/9pnet.mod.o ;  true

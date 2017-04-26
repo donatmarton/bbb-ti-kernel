@@ -1,1 +1,0 @@
-cmd_drivers/hwmon/shtc1.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/shtc1.ko drivers/hwmon/shtc1.o drivers/hwmon/shtc1.mod.o ;  true

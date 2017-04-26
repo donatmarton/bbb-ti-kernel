@@ -1,3 +1,0 @@
-kernel/drivers/mmc/host/omap.ko
-kernel/drivers/mmc/host/vub300.ko
-kernel/drivers/mmc/host/ushc.ko

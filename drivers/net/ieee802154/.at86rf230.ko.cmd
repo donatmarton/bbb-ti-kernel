@@ -1,1 +1,0 @@
-cmd_drivers/net/ieee802154/at86rf230.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/ieee802154/at86rf230.ko drivers/net/ieee802154/at86rf230.o drivers/net/ieee802154/at86rf230.mod.o ;  true

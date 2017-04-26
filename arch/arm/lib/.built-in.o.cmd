@@ -1,1 +1,0 @@
-cmd_arch/arm/lib/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/lib/built-in.o arch/arm/lib/xor-neon.o arch/arm/lib/lib-ksyms.o 

@@ -1,1 +1,0 @@
-cmd_drivers/rtc/rtc-m41t93.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-m41t93.ko drivers/rtc/rtc-m41t93.o drivers/rtc/rtc-m41t93.mod.o ;  true

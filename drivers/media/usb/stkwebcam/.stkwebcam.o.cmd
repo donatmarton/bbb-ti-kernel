@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/stkwebcam/stkwebcam.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/stkwebcam/stkwebcam.o drivers/media/usb/stkwebcam/stk-webcam.o drivers/media/usb/stkwebcam/stk-sensor.o 

@@ -1,1 +1,0 @@
-cmd_sound/usb/6fire/snd-usb-6fire.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/usb/6fire/snd-usb-6fire.o sound/usb/6fire/chip.o sound/usb/6fire/comm.o sound/usb/6fire/midi.o sound/usb/6fire/control.o sound/usb/6fire/firmware.o sound/usb/6fire/pcm.o 

@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-log-userspace.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/md/dm-log-userspace.o drivers/md/dm-log-userspace-base.o drivers/md/dm-log-userspace-transfer.o 

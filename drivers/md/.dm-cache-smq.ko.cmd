@@ -1,1 +1,0 @@
-cmd_drivers/md/dm-cache-smq.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/md/dm-cache-smq.ko drivers/md/dm-cache-smq.o drivers/md/dm-cache-smq.mod.o ;  true

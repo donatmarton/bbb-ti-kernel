@@ -1,1 +1,0 @@
-cmd_drivers/media/mmc/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/mmc/built-in.o drivers/media/mmc/siano/built-in.o 

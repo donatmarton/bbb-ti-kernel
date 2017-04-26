@@ -1,1 +1,0 @@
-cmd_drivers/bus/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/bus/built-in.o drivers/bus/omap_l3_smx.o drivers/bus/omap_l3_noc.o drivers/bus/omap-ocp2scp.o drivers/bus/simple-pm-bus.o drivers/bus/vexpress-config.o 

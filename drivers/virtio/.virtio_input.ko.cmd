@@ -1,1 +1,0 @@
-cmd_drivers/virtio/virtio_input.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/virtio/virtio_input.ko drivers/virtio/virtio_input.o drivers/virtio/virtio_input.mod.o ;  true

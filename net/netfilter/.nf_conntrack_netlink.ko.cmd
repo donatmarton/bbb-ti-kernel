@@ -1,1 +1,0 @@
-cmd_net/netfilter/nf_conntrack_netlink.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_netlink.ko net/netfilter/nf_conntrack_netlink.o net/netfilter/nf_conntrack_netlink.mod.o ;  true

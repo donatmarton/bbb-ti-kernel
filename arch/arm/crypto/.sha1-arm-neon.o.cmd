@@ -1,1 +1,0 @@
-cmd_arch/arm/crypto/sha1-arm-neon.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/crypto/sha1-arm-neon.o arch/arm/crypto/sha1-armv7-neon.o arch/arm/crypto/sha1_neon_glue.o 

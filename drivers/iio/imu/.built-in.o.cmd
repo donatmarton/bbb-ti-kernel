@@ -1,1 +1,0 @@
-cmd_drivers/iio/imu/built-in.o :=  /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/imu/built-in.o drivers/iio/imu/bmi160/built-in.o drivers/iio/imu/inv_mpu6050/built-in.o 

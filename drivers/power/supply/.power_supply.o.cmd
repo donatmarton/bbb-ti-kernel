@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/power_supply.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/power/supply/power_supply.o drivers/power/supply/power_supply_core.o drivers/power/supply/power_supply_sysfs.o drivers/power/supply/power_supply_leds.o 

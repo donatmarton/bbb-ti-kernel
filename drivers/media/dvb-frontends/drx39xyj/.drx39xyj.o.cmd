@@ -1,1 +1,0 @@
-cmd_drivers/media/dvb-frontends/drx39xyj/drx39xyj.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/drx39xyj/drx39xyj.o drivers/media/dvb-frontends/drx39xyj/drxj.o 

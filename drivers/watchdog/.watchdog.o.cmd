@@ -1,1 +1,0 @@
-cmd_drivers/watchdog/watchdog.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/watchdog/watchdog.o drivers/watchdog/watchdog_core.o drivers/watchdog/watchdog_dev.o 

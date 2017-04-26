@@ -1,1 +1,0 @@
-cmd_drivers/usb/usbip/usbip-host.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/usbip/usbip-host.o drivers/usb/usbip/stub_dev.o drivers/usb/usbip/stub_main.o drivers/usb/usbip/stub_rx.o drivers/usb/usbip/stub_tx.o 

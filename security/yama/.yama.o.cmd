@@ -1,1 +1,0 @@
-cmd_security/yama/yama.o := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o security/yama/yama.o security/yama/yama_lsm.o 

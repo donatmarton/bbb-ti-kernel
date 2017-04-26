@@ -1,1 +1,0 @@
-cmd_drivers/i2c/busses/i2c-taos-evm.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-taos-evm.ko drivers/i2c/busses/i2c-taos-evm.o drivers/i2c/busses/i2c-taos-evm.mod.o ;  true

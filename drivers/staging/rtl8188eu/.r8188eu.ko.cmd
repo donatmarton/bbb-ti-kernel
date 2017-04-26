@@ -1,1 +1,0 @@
-cmd_drivers/staging/rtl8188eu/r8188eu.ko := /home/marci/ti-linux-kernel-dev/dl/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/rtl8188eu/r8188eu.ko drivers/staging/rtl8188eu/r8188eu.o drivers/staging/rtl8188eu/r8188eu.mod.o ;  true
