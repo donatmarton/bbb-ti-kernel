@@ -1,0 +1,1 @@
+cmd_sound/soc/omap/snd-soc-omap-mcbsp.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/soc/omap/snd-soc-omap-mcbsp.o sound/soc/omap/omap-mcbsp.o sound/soc/omap/mcbsp.o 

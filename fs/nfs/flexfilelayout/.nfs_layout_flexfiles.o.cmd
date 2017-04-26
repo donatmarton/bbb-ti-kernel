@@ -1,0 +1,1 @@
+cmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o fs/nfs/flexfilelayout/flexfilelayout.o fs/nfs/flexfilelayout/flexfilelayoutdev.o 

@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videobuf2-vmalloc.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/videobuf2-vmalloc.ko drivers/media/v4l2-core/videobuf2-vmalloc.o drivers/media/v4l2-core/videobuf2-vmalloc.mod.o

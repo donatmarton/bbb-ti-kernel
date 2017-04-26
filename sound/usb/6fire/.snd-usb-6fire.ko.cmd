@@ -1,0 +1,1 @@
+cmd_sound/usb/6fire/snd-usb-6fire.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/usb/6fire/snd-usb-6fire.ko sound/usb/6fire/snd-usb-6fire.o sound/usb/6fire/snd-usb-6fire.mod.o

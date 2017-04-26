@@ -1,0 +1,1 @@
+cmd_net/llc/llc2.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/llc/llc2.ko net/llc/llc2.o net/llc/llc2.mod.o

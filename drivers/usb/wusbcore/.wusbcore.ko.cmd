@@ -1,0 +1,1 @@
+cmd_drivers/usb/wusbcore/wusbcore.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/wusbcore/wusbcore.ko drivers/usb/wusbcore/wusbcore.o drivers/usb/wusbcore/wusbcore.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/accel/lis3l02dq.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/accel/lis3l02dq.ko drivers/staging/iio/accel/lis3l02dq.o drivers/staging/iio/accel/lis3l02dq.mod.o

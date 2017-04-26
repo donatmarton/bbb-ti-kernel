@@ -1,0 +1,1 @@
+cmd_net/atm/mpoa.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/atm/mpoa.o net/atm/mpc.o net/atm/mpoa_caches.o net/atm/mpoa_proc.o 

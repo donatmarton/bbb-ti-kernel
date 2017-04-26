@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ds620.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/ds620.ko drivers/hwmon/ds620.o drivers/hwmon/ds620.mod.o

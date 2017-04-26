@@ -1,0 +1,1 @@
+cmd_drivers/mfd/da9063.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/mfd/da9063.o drivers/mfd/da9063-core.o drivers/mfd/da9063-irq.o drivers/mfd/da9063-i2c.o 

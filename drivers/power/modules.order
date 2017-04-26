@@ -1,0 +1,9 @@
+kernel/drivers/power/generic-adc-battery.ko
+kernel/drivers/power/bq27xxx_battery.ko
+kernel/drivers/power/da9052-battery.ko
+kernel/drivers/power/rx51_battery.ko
+kernel/drivers/power/isp1704_charger.ko
+kernel/drivers/power/gpio-charger.ko
+kernel/drivers/power/bq2415x_charger.ko
+kernel/drivers/power/tps65217_charger.ko
+kernel/drivers/power/axp288_fuel_gauge.ko

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cxd2820r.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cxd2820r.ko drivers/media/dvb-frontends/cxd2820r.o drivers/media/dvb-frontends/cxd2820r.mod.o

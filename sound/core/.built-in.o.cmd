@@ -1,0 +1,1 @@
+cmd_sound/core/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/core/built-in.o sound/core/oss/built-in.o 

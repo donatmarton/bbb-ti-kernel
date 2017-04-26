@@ -1,0 +1,1 @@
+cmd_sound/usb/misc/snd-ua101.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/usb/misc/snd-ua101.o sound/usb/misc/ua101.o 

@@ -1,0 +1,4 @@
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/smsc.ko
+kernel/drivers/net/phy/dp83848.ko
+kernel/drivers/net/phy/micrel.ko

@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/tsys01.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/temperature/tsys01.ko drivers/iio/temperature/tsys01.o drivers/iio/temperature/tsys01.mod.o

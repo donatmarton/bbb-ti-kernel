@@ -1,0 +1,1 @@
+cmd_fs/efs/efs.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/efs/efs.o fs/efs/super.o fs/efs/inode.o fs/efs/namei.o fs/efs/dir.o fs/efs/file.o fs/efs/symlink.o 

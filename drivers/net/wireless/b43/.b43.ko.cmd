@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/b43/b43.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/b43/b43.ko drivers/net/wireless/b43/b43.o drivers/net/wireless/b43/b43.mod.o

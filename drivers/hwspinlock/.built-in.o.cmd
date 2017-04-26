@@ -1,0 +1,1 @@
+cmd_drivers/hwspinlock/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hwspinlock/built-in.o drivers/hwspinlock/hwspinlock_core.o drivers/hwspinlock/omap_hwspinlock.o 

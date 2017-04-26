@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/ti/ti_cpsw.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/ethernet/ti/ti_cpsw.o drivers/net/ethernet/ti/cpsw.o drivers/net/ethernet/ti/cpts.o 

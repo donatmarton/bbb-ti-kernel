@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/soc_camera/rj54n1cb0c.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/i2c/soc_camera/rj54n1cb0c.ko drivers/media/i2c/soc_camera/rj54n1cb0c.o drivers/media/i2c/soc_camera/rj54n1cb0c.mod.o

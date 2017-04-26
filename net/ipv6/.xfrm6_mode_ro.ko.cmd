@@ -1,0 +1,1 @@
+cmd_net/ipv6/xfrm6_mode_ro.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv6/xfrm6_mode_ro.ko net/ipv6/xfrm6_mode_ro.o net/ipv6/xfrm6_mode_ro.mod.o

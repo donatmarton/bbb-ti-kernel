@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl1251/wl1251.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ti/wl1251/wl1251.ko drivers/net/wireless/ti/wl1251/wl1251.o drivers/net/wireless/ti/wl1251/wl1251.mod.o

@@ -1,0 +1,127 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x2c197ea3, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x402b8281, __VMLINUX_SYMBOL_STR(__request_module) },
+	{ 0xd6ee688f, __VMLINUX_SYMBOL_STR(vmalloc) },
+	{ 0xf3b12552, __VMLINUX_SYMBOL_STR(__pm_runtime_disable) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0xcd00dbf8, __VMLINUX_SYMBOL_STR(videobuf_mmap_mapper) },
+	{ 0xaa6c9c56, __VMLINUX_SYMBOL_STR(vb2_mmap) },
+	{ 0xd325617d, __VMLINUX_SYMBOL_STR(__pm_runtime_suspend) },
+	{ 0x5f3e3558, __VMLINUX_SYMBOL_STR(soc_mbus_bytes_per_line) },
+	{ 0xddef3674, __VMLINUX_SYMBOL_STR(video_device_release) },
+	{ 0xd3dbfbc4, __VMLINUX_SYMBOL_STR(_find_first_zero_bit_le) },
+	{ 0x712b2281, __VMLINUX_SYMBOL_STR(v4l2_clk_disable) },
+	{ 0x6c2e3c61, __VMLINUX_SYMBOL_STR(v4l2_device_unregister) },
+	{ 0x8cc1e73b, __VMLINUX_SYMBOL_STR(v4l2_ctrl_handler_free) },
+	{ 0xb6219f47, __VMLINUX_SYMBOL_STR(vb2_create_bufs) },
+	{ 0xe2fae716, __VMLINUX_SYMBOL_STR(kmemdup) },
+	{ 0x9cb71d57, __VMLINUX_SYMBOL_STR(videobuf_streamon) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+	{ 0xeae67959, __VMLINUX_SYMBOL_STR(__video_register_device) },
+	{ 0x62b72b0d, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0x47249507, __VMLINUX_SYMBOL_STR(__pm_runtime_resume) },
+	{ 0xe87f2add, __VMLINUX_SYMBOL_STR(i2c_put_adapter) },
+	{ 0x999e8297, __VMLINUX_SYMBOL_STR(vfree) },
+	{ 0x4a4a4bd, __VMLINUX_SYMBOL_STR(__platform_driver_register) },
+	{ 0x343a1a8, __VMLINUX_SYMBOL_STR(__list_add) },
+	{ 0xf58ce3c6, __VMLINUX_SYMBOL_STR(v4l2_device_register) },
+	{ 0xac385690, __VMLINUX_SYMBOL_STR(devm_regulator_bulk_get) },
+	{ 0x5278e086, __VMLINUX_SYMBOL_STR(regulator_bulk_enable) },
+	{ 0xa6b735e9, __VMLINUX_SYMBOL_STR(vb2_read) },
+	{ 0x5f754e5a, __VMLINUX_SYMBOL_STR(memset) },
+	{ 0xc7035489, __VMLINUX_SYMBOL_STR(of_find_i2c_device_by_node) },
+	{ 0x765e9a65, __VMLINUX_SYMBOL_STR(vb2_prepare_buf) },
+	{ 0xaff22eda, __VMLINUX_SYMBOL_STR(video_device_alloc) },
+	{ 0xef1e4705, __VMLINUX_SYMBOL_STR(dev_err) },
+	{ 0x48a0f939, __VMLINUX_SYMBOL_STR(mutex_lock_interruptible) },
+	{ 0xdc798d37, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x3d1e609c, __VMLINUX_SYMBOL_STR(videobuf_qbuf) },
+	{ 0x6e59c2b6, __VMLINUX_SYMBOL_STR(video_unregister_device) },
+	{ 0x40ec5840, __VMLINUX_SYMBOL_STR(of_graph_get_next_endpoint) },
+	{ 0x40fb2444, __VMLINUX_SYMBOL_STR(platform_device_del) },
+	{ 0xc21222c3, __VMLINUX_SYMBOL_STR(platform_device_alloc) },
+	{ 0x1b49ed0a, __VMLINUX_SYMBOL_STR(v4l2_async_notifier_register) },
+	{ 0xbe8974c7, __VMLINUX_SYMBOL_STR(platform_device_add) },
+	{ 0xbb7a9d91, __VMLINUX_SYMBOL_STR(videobuf_querybuf) },
+	{ 0x73e20c1c, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0xe16b893b, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x8f8eb0e, __VMLINUX_SYMBOL_STR(vb2_qbuf) },
+	{ 0x521445b, __VMLINUX_SYMBOL_STR(list_del) },
+	{ 0xabab5bb1, __VMLINUX_SYMBOL_STR(platform_device_unregister) },
+	{ 0x62ac395e, __VMLINUX_SYMBOL_STR(i2c_unregister_device) },
+	{ 0x3adedb46, __VMLINUX_SYMBOL_STR(vb2_querybuf) },
+	{ 0xbe89dbd0, __VMLINUX_SYMBOL_STR(devm_kfree) },
+	{ 0xd50ff45b, __VMLINUX_SYMBOL_STR(v4l2_clk_unregister) },
+	{ 0x66dde26f, __VMLINUX_SYMBOL_STR(v4l2_device_unregister_subdev) },
+	{ 0x6cfda908, __VMLINUX_SYMBOL_STR(dev_notice) },
+	{ 0x29f5a98b, __VMLINUX_SYMBOL_STR(soc_mbus_get_fmtdesc) },
+	{ 0x2d9b9ea6, __VMLINUX_SYMBOL_STR(module_put) },
+	{ 0xc9e4f0cb, __VMLINUX_SYMBOL_STR(_dev_info) },
+	{ 0x261604a4, __VMLINUX_SYMBOL_STR(vb2_streamon) },
+	{ 0x34317eea, __VMLINUX_SYMBOL_STR(regulator_bulk_disable) },
+	{ 0xca72012e, __VMLINUX_SYMBOL_STR(pm_runtime_enable) },
+	{ 0x7c8e67a0, __VMLINUX_SYMBOL_STR(put_device) },
+	{ 0xc6cab39f, __VMLINUX_SYMBOL_STR(video_devdata) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x4fd71222, __VMLINUX_SYMBOL_STR(vb2_expbuf) },
+	{ 0x2477d21e, __VMLINUX_SYMBOL_STR(v4l2_ctrl_handler_setup) },
+	{ 0x4841ebe1, __VMLINUX_SYMBOL_STR(vb2_reqbufs) },
+	{ 0xf5e735e1, __VMLINUX_SYMBOL_STR(v4l2_clk_enable) },
+	{ 0x31f1c99d, __VMLINUX_SYMBOL_STR(platform_device_add_data) },
+	{ 0xc7da6011, __VMLINUX_SYMBOL_STR(__dynamic_dev_dbg) },
+	{ 0x1091329c, __VMLINUX_SYMBOL_STR(videobuf_dqbuf) },
+	{ 0xd9ff3ac3, __VMLINUX_SYMBOL_STR(get_device) },
+	{ 0x517cb08b, __VMLINUX_SYMBOL_STR(of_graph_get_remote_port) },
+	{ 0x8ca5f57b, __VMLINUX_SYMBOL_STR(vb2_dqbuf) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x275496e3, __VMLINUX_SYMBOL_STR(videobuf_reqbufs) },
+	{ 0x649dace1, __VMLINUX_SYMBOL_STR(v4l2_ctrl_handler_init_class) },
+	{ 0x33296ac9, __VMLINUX_SYMBOL_STR(v4l2_clk_register) },
+	{ 0xbc99c325, __VMLINUX_SYMBOL_STR(v4l2_i2c_new_subdev_board) },
+	{ 0x2f0664db, __VMLINUX_SYMBOL_STR(dev_warn) },
+	{ 0xc0cfd269, __VMLINUX_SYMBOL_STR(v4l2_ctrl_add_handler) },
+	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0x2863728e, __VMLINUX_SYMBOL_STR(soc_mbus_image_size) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0x676bbc0f, __VMLINUX_SYMBOL_STR(_set_bit) },
+	{ 0xb81960ca, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0xd945909, __VMLINUX_SYMBOL_STR(platform_driver_unregister) },
+	{ 0x49ebacbd, __VMLINUX_SYMBOL_STR(_clear_bit) },
+	{ 0x639c94e9, __VMLINUX_SYMBOL_STR(i2c_get_adapter) },
+	{ 0xd0532b4a, __VMLINUX_SYMBOL_STR(of_node_put) },
+	{ 0x8caa767c, __VMLINUX_SYMBOL_STR(devm_kmalloc) },
+	{ 0x280e4834, __VMLINUX_SYMBOL_STR(vb2_queue_release) },
+	{ 0xfe406a9d, __VMLINUX_SYMBOL_STR(vb2_streamoff) },
+	{ 0x20742dad, __VMLINUX_SYMBOL_STR(v4l2_async_notifier_unregister) },
+	{ 0x787c75c1, __VMLINUX_SYMBOL_STR(video_ioctl2) },
+	{ 0x9e931cfd, __VMLINUX_SYMBOL_STR(try_module_get) },
+	{ 0xb994b61c, __VMLINUX_SYMBOL_STR(platform_device_put) },
+	{ 0x2252bf2a, __VMLINUX_SYMBOL_STR(videobuf_streamoff) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=videobuf-core,videobuf2-core,soc_mediabus,videobuf2-v4l2";
+

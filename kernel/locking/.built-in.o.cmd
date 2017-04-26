@@ -1,0 +1,1 @@
+cmd_kernel/locking/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o kernel/locking/built-in.o kernel/locking/semaphore.o kernel/locking/percpu-rwsem.o kernel/locking/mutex.o kernel/locking/rwsem.o kernel/locking/rtmutex.o kernel/locking/rwsem-xadd.o 

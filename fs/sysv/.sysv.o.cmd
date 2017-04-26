@@ -1,0 +1,1 @@
+cmd_fs/sysv/sysv.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/sysv/sysv.o fs/sysv/ialloc.o fs/sysv/balloc.o fs/sysv/inode.o fs/sysv/itree.o fs/sysv/file.o fs/sysv/dir.o fs/sysv/namei.o fs/sysv/super.o 

@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/bmc150_magn.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/bmc150_magn.ko drivers/iio/magnetometer/bmc150_magn.o drivers/iio/magnetometer/bmc150_magn.mod.o

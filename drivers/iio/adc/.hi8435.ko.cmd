@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/hi8435.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/adc/hi8435.ko drivers/iio/adc/hi8435.o drivers/iio/adc/hi8435.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/st_gyro.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/gyro/st_gyro.o drivers/iio/gyro/st_gyro_core.o drivers/iio/gyro/st_gyro_buffer.o 

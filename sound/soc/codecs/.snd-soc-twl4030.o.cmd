@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-twl4030.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/soc/codecs/snd-soc-twl4030.o sound/soc/codecs/twl4030.o 

@@ -1,0 +1,1 @@
+cmd_drivers/iio/imu/adis16400.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/imu/adis16400.o drivers/iio/imu/adis16400_core.o drivers/iio/imu/adis16400_buffer.o 

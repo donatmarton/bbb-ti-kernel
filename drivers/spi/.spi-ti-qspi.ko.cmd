@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-ti-qspi.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/spi/spi-ti-qspi.ko drivers/spi/spi-ti-qspi.o drivers/spi/spi-ti-qspi.mod.o

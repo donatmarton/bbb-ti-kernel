@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ad7877.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ad7877.ko drivers/input/touchscreen/ad7877.o drivers/input/touchscreen/ad7877.mod.o

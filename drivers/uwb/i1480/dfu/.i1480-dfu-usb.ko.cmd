@@ -1,0 +1,1 @@
+cmd_drivers/uwb/i1480/dfu/i1480-dfu-usb.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/uwb/i1480/dfu/i1480-dfu-usb.ko drivers/uwb/i1480/dfu/i1480-dfu-usb.o drivers/uwb/i1480/dfu/i1480-dfu-usb.mod.o

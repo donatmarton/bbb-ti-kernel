@@ -1,0 +1,1 @@
+cmd_fs/minix/minix.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/minix/minix.o fs/minix/bitmap.o fs/minix/itree_v1.o fs/minix/itree_v2.o fs/minix/namei.o fs/minix/inode.o fs/minix/file.o fs/minix/dir.o 

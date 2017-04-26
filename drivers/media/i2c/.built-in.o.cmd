@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/i2c/built-in.o drivers/media/i2c/soc_camera/built-in.o drivers/media/i2c/ir-kbd-i2c.o 

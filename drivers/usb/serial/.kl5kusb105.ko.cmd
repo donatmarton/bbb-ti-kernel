@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/kl5kusb105.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/kl5kusb105.ko drivers/usb/serial/kl5kusb105.o drivers/usb/serial/kl5kusb105.mod.o

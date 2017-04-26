@@ -1,0 +1,1 @@
+cmd_drivers/hid/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/built-in.o drivers/hid/hid.o drivers/hid/uhid.o drivers/hid/hid-generic.o drivers/hid/hid-logitech.o drivers/hid/hid-logitech-dj.o drivers/hid/hid-logitech-hidpp.o drivers/hid/usbhid/built-in.o 

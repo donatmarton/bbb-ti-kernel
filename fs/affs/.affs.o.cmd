@@ -1,0 +1,1 @@
+cmd_fs/affs/affs.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/affs/affs.o fs/affs/super.o fs/affs/namei.o fs/affs/inode.o fs/affs/file.o fs/affs/dir.o fs/affs/amigaffs.o fs/affs/bitmap.o fs/affs/symlink.o 

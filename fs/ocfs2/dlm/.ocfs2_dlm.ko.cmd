@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/dlm/ocfs2_dlm.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o fs/ocfs2/dlm/ocfs2_dlm.ko fs/ocfs2/dlm/ocfs2_dlm.o fs/ocfs2/dlm/ocfs2_dlm.mod.o

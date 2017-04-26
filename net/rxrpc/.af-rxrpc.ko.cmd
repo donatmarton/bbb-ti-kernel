@@ -1,0 +1,1 @@
+cmd_net/rxrpc/af-rxrpc.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/rxrpc/af-rxrpc.ko net/rxrpc/af-rxrpc.o net/rxrpc/af-rxrpc.mod.o

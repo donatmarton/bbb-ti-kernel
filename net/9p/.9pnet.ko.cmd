@@ -1,0 +1,1 @@
+cmd_net/9p/9pnet.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/9p/9pnet.ko net/9p/9pnet.o net/9p/9pnet.mod.o

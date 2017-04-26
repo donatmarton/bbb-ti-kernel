@@ -1,0 +1,1 @@
+cmd_net/wireless/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/wireless/built-in.o net/wireless/wext-core.o net/wireless/wext-proc.o net/wireless/wext-spy.o net/wireless/wext-priv.o 

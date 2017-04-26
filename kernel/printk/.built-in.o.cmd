@@ -1,0 +1,1 @@
+cmd_kernel/printk/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o kernel/printk/built-in.o kernel/printk/printk.o kernel/printk/braille.o 

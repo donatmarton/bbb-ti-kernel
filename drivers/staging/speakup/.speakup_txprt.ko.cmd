@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup_txprt.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/speakup/speakup_txprt.ko drivers/staging/speakup/speakup_txprt.o drivers/staging/speakup/speakup_txprt.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ad7418.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/ad7418.ko drivers/hwmon/ad7418.o drivers/hwmon/ad7418.mod.o

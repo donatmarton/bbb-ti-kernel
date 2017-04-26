@@ -1,0 +1,15 @@
+kernel/drivers/input/input-core.ko
+kernel/drivers/input/ff-memless.ko
+kernel/drivers/input/input-leds.ko
+kernel/drivers/input/mousedev.ko
+kernel/drivers/input/keyboard/atkbd.ko
+kernel/drivers/input/keyboard/gpio_keys.ko
+kernel/drivers/input/misc/palmas-pwrbutton.ko
+kernel/drivers/input/misc/axp20x-pek.ko
+kernel/drivers/input/misc/tps65218-pwrbutton.ko
+kernel/drivers/input/misc/twl4030-pwrbutton.ko
+kernel/drivers/input/misc/twl4030-vibra.ko
+kernel/drivers/input/misc/twl6040-vibra.ko
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/touchscreen/of_touchscreen.ko
+kernel/drivers/input/touchscreen/edt-ft5x06.ko

@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/v4l2-core/built-in.o drivers/media/v4l2-core/videodev.o drivers/media/v4l2-core/v4l2-common.o drivers/media/v4l2-core/v4l2-dv-timings.o 

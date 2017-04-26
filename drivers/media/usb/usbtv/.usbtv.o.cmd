@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/usbtv/usbtv.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/usbtv/usbtv.o drivers/media/usb/usbtv/usbtv-core.o drivers/media/usb/usbtv/usbtv-video.o drivers/media/usb/usbtv/usbtv-audio.o 

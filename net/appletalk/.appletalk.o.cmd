@@ -1,0 +1,1 @@
+cmd_net/appletalk/appletalk.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/appletalk/appletalk.o net/appletalk/aarp.o net/appletalk/ddp.o net/appletalk/dev.o net/appletalk/atalk_proc.o net/appletalk/sysctl_net_atalk.o 

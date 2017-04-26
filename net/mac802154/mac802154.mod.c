@@ -1,0 +1,126 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x2c197ea3, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x7d63a635, __VMLINUX_SYMBOL_STR(register_netdevice) },
+	{ 0x609f1c7e, __VMLINUX_SYMBOL_STR(synchronize_net) },
+	{ 0x7b8c3a36, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0x65e75cb6, __VMLINUX_SYMBOL_STR(__list_del_entry) },
+	{ 0x12da5bb2, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0xce264ecd, __VMLINUX_SYMBOL_STR(perf_tp_event) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x60a13e90, __VMLINUX_SYMBOL_STR(rcu_barrier) },
+	{ 0x43a53735, __VMLINUX_SYMBOL_STR(__alloc_workqueue_key) },
+	{ 0x19f462ab, __VMLINUX_SYMBOL_STR(kfree_call_rcu) },
+	{ 0x79aa04a2, __VMLINUX_SYMBOL_STR(get_random_bytes) },
+	{ 0xd37a5f54, __VMLINUX_SYMBOL_STR(ieee802154_hdr_push) },
+	{ 0x9e14108e, __VMLINUX_SYMBOL_STR(hrtimer_cancel) },
+	{ 0xc7a4fbed, __VMLINUX_SYMBOL_STR(rtnl_lock) },
+	{ 0xd1a46981, __VMLINUX_SYMBOL_STR(skb_clone) },
+	{ 0xf99eb212, __VMLINUX_SYMBOL_STR(wpan_phy_new) },
+	{ 0xd2da1048, __VMLINUX_SYMBOL_STR(register_netdevice_notifier) },
+	{ 0x44b1d426, __VMLINUX_SYMBOL_STR(__dynamic_pr_debug) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+	{ 0xa59a091d, __VMLINUX_SYMBOL_STR(__dev_kfree_skb_any) },
+	{ 0x62b72b0d, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0xc4170d75, __VMLINUX_SYMBOL_STR(trace_event_buffer_reserve) },
+	{ 0x28aa6a67, __VMLINUX_SYMBOL_STR(call_rcu) },
+	{ 0x87f51bbb, __VMLINUX_SYMBOL_STR(__dynamic_netdev_dbg) },
+	{ 0x9d0d6206, __VMLINUX_SYMBOL_STR(unregister_netdevice_notifier) },
+	{ 0x18cf6166, __VMLINUX_SYMBOL_STR(skb_trim) },
+	{ 0xcbdd1a0a, __VMLINUX_SYMBOL_STR(ieee802154_hdr_pull) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0xa347d50f, __VMLINUX_SYMBOL_STR(trace_define_field) },
+	{ 0x6a1b7fe9, __VMLINUX_SYMBOL_STR(hrtimer_start_range_ns) },
+	{ 0x5f754e5a, __VMLINUX_SYMBOL_STR(memset) },
+	{ 0x55d2f2cd, __VMLINUX_SYMBOL_STR(netif_tx_wake_queue) },
+	{ 0xdc798d37, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x3c3fce39, __VMLINUX_SYMBOL_STR(__local_bh_enable_ip) },
+	{ 0x71c90087, __VMLINUX_SYMBOL_STR(memcmp) },
+	{ 0xbe43413c, __VMLINUX_SYMBOL_STR(free_netdev) },
+	{ 0xfaef0ed, __VMLINUX_SYMBOL_STR(__tasklet_schedule) },
+	{ 0x1d693da5, __VMLINUX_SYMBOL_STR(trace_event_reg) },
+	{ 0x2e3c04d2, __VMLINUX_SYMBOL_STR(netif_receive_skb) },
+	{ 0x9e221be8, __VMLINUX_SYMBOL_STR(wpan_phy_free) },
+	{ 0x73e20c1c, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0x122c4722, __VMLINUX_SYMBOL_STR(ieee802154_hdr_peek) },
+	{ 0x8286a48, __VMLINUX_SYMBOL_STR(skb_push) },
+	{ 0xe16b893b, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x8c03d20c, __VMLINUX_SYMBOL_STR(destroy_workqueue) },
+	{ 0x521445b, __VMLINUX_SYMBOL_STR(list_del) },
+	{ 0x9545af6d, __VMLINUX_SYMBOL_STR(tasklet_init) },
+	{ 0x2469810f, __VMLINUX_SYMBOL_STR(__rcu_read_unlock) },
+	{ 0x8eebf59b, __VMLINUX_SYMBOL_STR(wpan_phy_register) },
+	{ 0x6091797f, __VMLINUX_SYMBOL_STR(synchronize_rcu) },
+	{ 0xf70e4a4d, __VMLINUX_SYMBOL_STR(preempt_schedule_notrace) },
+	{ 0x42160169, __VMLINUX_SYMBOL_STR(flush_workqueue) },
+	{ 0x530b2bf0, __VMLINUX_SYMBOL_STR(crypto_aead_setkey) },
+	{ 0x82072614, __VMLINUX_SYMBOL_STR(tasklet_kill) },
+	{ 0x33c18c1e, __VMLINUX_SYMBOL_STR(skb_queue_tail) },
+	{ 0xea8184e, __VMLINUX_SYMBOL_STR(trace_event_ignore_this_pid) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x4a211dfd, __VMLINUX_SYMBOL_STR(kfree_skb) },
+	{ 0x6b2dc060, __VMLINUX_SYMBOL_STR(dump_stack) },
+	{ 0x3835e6a1, __VMLINUX_SYMBOL_STR(alloc_netdev_mqs) },
+	{ 0x6eafc117, __VMLINUX_SYMBOL_STR(crypto_destroy_tfm) },
+	{ 0x53adf70b, __VMLINUX_SYMBOL_STR(trace_event_buffer_commit) },
+	{ 0x1e579dc5, __VMLINUX_SYMBOL_STR(__list_add_rcu) },
+	{ 0x54fa6f99, __VMLINUX_SYMBOL_STR(wpan_phy_unregister) },
+	{ 0xfe9c4364, __VMLINUX_SYMBOL_STR(tasklet_enable) },
+	{ 0xe4628663, __VMLINUX_SYMBOL_STR(ieee802154_hdr_peek_addrs) },
+	{ 0xcaa1a2be, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0x823882eb, __VMLINUX_SYMBOL_STR(unregister_netdevice_queue) },
+	{ 0x3771b461, __VMLINUX_SYMBOL_STR(crc_ccitt) },
+	{ 0x6a9ae4fd, __VMLINUX_SYMBOL_STR(event_triggers_call) },
+	{ 0x5b321723, __VMLINUX_SYMBOL_STR(crypto_aead_setauthsize) },
+	{ 0xca2e290d, __VMLINUX_SYMBOL_STR(netdev_warn) },
+	{ 0x47007249, __VMLINUX_SYMBOL_STR(crypto_alloc_aead) },
+	{ 0x1e047854, __VMLINUX_SYMBOL_STR(warn_slowpath_fmt) },
+	{ 0x5c265cba, __VMLINUX_SYMBOL_STR(sg_init_one) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x1e236e68, __VMLINUX_SYMBOL_STR(trace_event_raw_init) },
+	{ 0x850bea8b, __VMLINUX_SYMBOL_STR(dev_alloc_name) },
+	{ 0x3eb7a160, __VMLINUX_SYMBOL_STR(hrtimer_init) },
+	{ 0x1ff6c8b8, __VMLINUX_SYMBOL_STR(perf_trace_buf_prepare) },
+	{ 0x7a4497db, __VMLINUX_SYMBOL_STR(kzfree) },
+	{ 0xa045ff0b, __VMLINUX_SYMBOL_STR(skb_dequeue) },
+	{ 0x2f0664db, __VMLINUX_SYMBOL_STR(dev_warn) },
+	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0x3139b15e, __VMLINUX_SYMBOL_STR(trace_raw_output_prep) },
+	{ 0xb2d48a2e, __VMLINUX_SYMBOL_STR(queue_work_on) },
+	{ 0x3c93ea25, __VMLINUX_SYMBOL_STR(trace_seq_printf) },
+	{ 0x85670f1d, __VMLINUX_SYMBOL_STR(rtnl_is_locked) },
+	{ 0x8d522714, __VMLINUX_SYMBOL_STR(__rcu_read_lock) },
+	{ 0xf229424a, __VMLINUX_SYMBOL_STR(preempt_count_add) },
+	{ 0xfe8e1ccd, __VMLINUX_SYMBOL_STR(skb_put) },
+	{ 0x6489283d, __VMLINUX_SYMBOL_STR(crypto_alloc_base) },
+	{ 0x6e720ff2, __VMLINUX_SYMBOL_STR(rtnl_unlock) },
+	{ 0x4d7aef69, __VMLINUX_SYMBOL_STR(ieee802154_max_payload) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=ieee802154,crc-ccitt";
+

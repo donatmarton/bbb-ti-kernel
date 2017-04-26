@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-wiimote.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/hid-wiimote.o drivers/hid/hid-wiimote-core.o drivers/hid/hid-wiimote-modules.o drivers/hid/hid-wiimote-debug.o 

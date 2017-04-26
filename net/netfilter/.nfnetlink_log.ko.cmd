@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_log.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/nfnetlink_log.ko net/netfilter/nfnetlink_log.o net/netfilter/nfnetlink_log.mod.o

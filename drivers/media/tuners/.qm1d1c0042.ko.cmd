@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/qm1d1c0042.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/qm1d1c0042.ko drivers/media/tuners/qm1d1c0042.o drivers/media/tuners/qm1d1c0042.mod.o

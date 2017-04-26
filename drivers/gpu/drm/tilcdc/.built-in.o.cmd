@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/tilcdc/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/gpu/drm/tilcdc/built-in.o drivers/gpu/drm/tilcdc/tilcdc_slave_compat.o drivers/gpu/drm/tilcdc/tilcdc_slave_compat.dtb.o 

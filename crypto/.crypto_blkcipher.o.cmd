@@ -1,0 +1,1 @@
+cmd_crypto/crypto_blkcipher.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o crypto/crypto_blkcipher.o crypto/ablkcipher.o crypto/blkcipher.o crypto/skcipher.o 

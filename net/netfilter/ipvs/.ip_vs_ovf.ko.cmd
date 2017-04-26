@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_ovf.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_ovf.ko net/netfilter/ipvs/ip_vs_ovf.o net/netfilter/ipvs/ip_vs_ovf.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/soc_camera/soc_mediabus.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/soc_camera/soc_mediabus.ko drivers/media/platform/soc_camera/soc_mediabus.o drivers/media/platform/soc_camera/soc_mediabus.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lp5523.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/leds/leds-lp5523.ko drivers/leds/leds-lp5523.o drivers/leds/leds-lp5523.mod.o

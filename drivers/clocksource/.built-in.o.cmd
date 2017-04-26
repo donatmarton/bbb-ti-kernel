@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/clocksource/built-in.o drivers/clocksource/clksrc-probe.o drivers/clocksource/mmio.o drivers/clocksource/timer-ti-32k.o drivers/clocksource/arm_arch_timer.o drivers/clocksource/timer-sp804.o 

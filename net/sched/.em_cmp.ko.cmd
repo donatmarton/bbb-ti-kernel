@@ -1,0 +1,1 @@
+cmd_net/sched/em_cmp.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/em_cmp.ko net/sched/em_cmp.o net/sched/em_cmp.mod.o

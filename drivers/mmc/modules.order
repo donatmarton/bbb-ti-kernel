@@ -1,0 +1,5 @@
+kernel/drivers/mmc/card/sdio_uart.ko
+kernel/drivers/mmc/host/dw_mmc-exynos.ko
+kernel/drivers/mmc/host/vub300.ko
+kernel/drivers/mmc/host/ushc.ko
+kernel/drivers/mmc/host/rtsx_usb_sdmmc.ko

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/phy/built-in.o drivers/net/phy/libphy.o drivers/net/phy/smsc.o drivers/net/phy/dp83848.o drivers/net/phy/micrel.o 

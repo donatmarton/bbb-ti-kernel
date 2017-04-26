@@ -1,0 +1,125 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x2c197ea3, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x2d3385d3, __VMLINUX_SYMBOL_STR(system_wq) },
+	{ 0xa83aeacf, __VMLINUX_SYMBOL_STR(netdev_info) },
+	{ 0x7b8c3a36, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xb9fc86d3, __VMLINUX_SYMBOL_STR(mii_ethtool_gset) },
+	{ 0x12da5bb2, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0xf6128e9c, __VMLINUX_SYMBOL_STR(ethtool_op_get_ts_info) },
+	{ 0xd2a941d4, __VMLINUX_SYMBOL_STR(sg_init_table) },
+	{ 0x189c3a74, __VMLINUX_SYMBOL_STR(mem_map) },
+	{ 0x7e42e836, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x6c09c2a4, __VMLINUX_SYMBOL_STR(del_timer) },
+	{ 0x79aa04a2, __VMLINUX_SYMBOL_STR(get_random_bytes) },
+	{ 0xa8cde9a7, __VMLINUX_SYMBOL_STR(remove_wait_queue) },
+	{ 0x38b6f297, __VMLINUX_SYMBOL_STR(netif_carrier_on) },
+	{ 0xf7802486, __VMLINUX_SYMBOL_STR(__aeabi_uidivmod) },
+	{ 0x8415cc61, __VMLINUX_SYMBOL_STR(usb_get_from_anchor) },
+	{ 0x8ca73395, __VMLINUX_SYMBOL_STR(netif_carrier_off) },
+	{ 0x4205ad24, __VMLINUX_SYMBOL_STR(cancel_work_sync) },
+	{ 0x16b7c05d, __VMLINUX_SYMBOL_STR(usb_kill_urb) },
+	{ 0x7a984179, __VMLINUX_SYMBOL_STR(usb_scuttle_anchored_urbs) },
+	{ 0xe2fae716, __VMLINUX_SYMBOL_STR(kmemdup) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+	{ 0xa59a091d, __VMLINUX_SYMBOL_STR(__dev_kfree_skb_any) },
+	{ 0x9580deb, __VMLINUX_SYMBOL_STR(init_timer_key) },
+	{ 0x62b72b0d, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0x3c117aa, __VMLINUX_SYMBOL_STR(usb_autopm_get_interface) },
+	{ 0xfbd9716b, __VMLINUX_SYMBOL_STR(usb_get_urb) },
+	{ 0x71d463ea, __VMLINUX_SYMBOL_STR(usb_unlink_urb) },
+	{ 0x7d11c268, __VMLINUX_SYMBOL_STR(jiffies) },
+	{ 0x87f51bbb, __VMLINUX_SYMBOL_STR(__dynamic_netdev_dbg) },
+	{ 0xc84fc707, __VMLINUX_SYMBOL_STR(__netdev_alloc_skb) },
+	{ 0x1030b539, __VMLINUX_SYMBOL_STR(netif_rx) },
+	{ 0x63b87fc5, __VMLINUX_SYMBOL_STR(__init_waitqueue_head) },
+	{ 0xffd5a395, __VMLINUX_SYMBOL_STR(default_wake_function) },
+	{ 0xe707d823, __VMLINUX_SYMBOL_STR(__aeabi_uidiv) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0xfff7d0a3, __VMLINUX_SYMBOL_STR(skb_queue_purge) },
+	{ 0x666b9845, __VMLINUX_SYMBOL_STR(usb_string) },
+	{ 0x706c5a65, __VMLINUX_SYMBOL_STR(preempt_count_sub) },
+	{ 0x55d2f2cd, __VMLINUX_SYMBOL_STR(netif_tx_wake_queue) },
+	{ 0xb4d7d799, __VMLINUX_SYMBOL_STR(mii_nway_restart) },
+	{ 0xef1e4705, __VMLINUX_SYMBOL_STR(dev_err) },
+	{ 0xdc798d37, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0xbe4c8b3b, __VMLINUX_SYMBOL_STR(ethtool_op_get_link) },
+	{ 0xfea687c8, __VMLINUX_SYMBOL_STR(usb_set_interface) },
+	{ 0xbe43413c, __VMLINUX_SYMBOL_STR(free_netdev) },
+	{ 0xaf7a4835, __VMLINUX_SYMBOL_STR(usb_autopm_put_interface_async) },
+	{ 0xfaef0ed, __VMLINUX_SYMBOL_STR(__tasklet_schedule) },
+	{ 0x63fda361, __VMLINUX_SYMBOL_STR(register_netdev) },
+	{ 0x94e8602, __VMLINUX_SYMBOL_STR(usb_control_msg) },
+	{ 0x73e20c1c, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0xe16b893b, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x16e5c2a, __VMLINUX_SYMBOL_STR(mod_timer) },
+	{ 0x43b0c9c3, __VMLINUX_SYMBOL_STR(preempt_schedule) },
+	{ 0x82072614, __VMLINUX_SYMBOL_STR(tasklet_kill) },
+	{ 0x33c18c1e, __VMLINUX_SYMBOL_STR(skb_queue_tail) },
+	{ 0xd8ea0b47, __VMLINUX_SYMBOL_STR(netif_device_attach) },
+	{ 0xc4ad22c6, __VMLINUX_SYMBOL_STR(usb_submit_urb) },
+	{ 0x16784ae4, __VMLINUX_SYMBOL_STR(netif_device_detach) },
+	{ 0x79cb0fd2, __VMLINUX_SYMBOL_STR(usb_autopm_get_interface_async) },
+	{ 0xca72012e, __VMLINUX_SYMBOL_STR(pm_runtime_enable) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0xd62c833f, __VMLINUX_SYMBOL_STR(schedule_timeout) },
+	{ 0x46f344d6, __VMLINUX_SYMBOL_STR(usb_clear_halt) },
+	{ 0x11064f33, __VMLINUX_SYMBOL_STR(eth_type_trans) },
+	{ 0xaa4a7797, __VMLINUX_SYMBOL_STR(hex2bin) },
+	{ 0xd9e787e1, __VMLINUX_SYMBOL_STR(netdev_err) },
+	{ 0xcaa1a2be, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0xc7da6011, __VMLINUX_SYMBOL_STR(__dynamic_dev_dbg) },
+	{ 0xb9e52429, __VMLINUX_SYMBOL_STR(__wake_up) },
+	{ 0xf6ebc03b, __VMLINUX_SYMBOL_STR(net_ratelimit) },
+	{ 0xadd0db18, __VMLINUX_SYMBOL_STR(usb_autopm_get_interface_no_resume) },
+	{ 0xb8ec1b03, __VMLINUX_SYMBOL_STR(eth_validate_addr) },
+	{ 0xfe634f58, __VMLINUX_SYMBOL_STR(add_wait_queue) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0xa045ff0b, __VMLINUX_SYMBOL_STR(skb_dequeue) },
+	{ 0x95eef112, __VMLINUX_SYMBOL_STR(unregister_netdev) },
+	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0x676bbc0f, __VMLINUX_SYMBOL_STR(_set_bit) },
+	{ 0xb2d48a2e, __VMLINUX_SYMBOL_STR(queue_work_on) },
+	{ 0xb81960ca, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0x14eb67aa, __VMLINUX_SYMBOL_STR(mii_link_ok) },
+	{ 0x1d8f4c65, __VMLINUX_SYMBOL_STR(consume_skb) },
+	{ 0xf229424a, __VMLINUX_SYMBOL_STR(preempt_count_add) },
+	{ 0x4f92a38, __VMLINUX_SYMBOL_STR(skb_tstamp_tx) },
+	{ 0xfe8e1ccd, __VMLINUX_SYMBOL_STR(skb_put) },
+	{ 0x18096457, __VMLINUX_SYMBOL_STR(eth_mac_addr) },
+	{ 0x900f303a, __VMLINUX_SYMBOL_STR(usb_free_urb) },
+	{ 0x413b4296, __VMLINUX_SYMBOL_STR(mii_ethtool_sset) },
+	{ 0xa45e57e, __VMLINUX_SYMBOL_STR(usb_autopm_put_interface) },
+	{ 0xae48b57b, __VMLINUX_SYMBOL_STR(usb_anchor_urb) },
+	{ 0x55da3d4e, __VMLINUX_SYMBOL_STR(usb_alloc_urb) },
+	{ 0xfc642a79, __VMLINUX_SYMBOL_STR(alloc_etherdev_mqs) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=mii";
+

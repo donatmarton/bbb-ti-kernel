@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/asix.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/usb/asix.o drivers/net/usb/asix_devices.o drivers/net/usb/asix_common.o drivers/net/usb/ax88172a.o 

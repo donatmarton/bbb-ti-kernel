@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/st_accel.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/accel/st_accel.o drivers/iio/accel/st_accel_core.o drivers/iio/accel/st_accel_buffer.o 

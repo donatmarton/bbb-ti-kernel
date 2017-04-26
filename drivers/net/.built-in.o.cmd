@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/built-in.o drivers/net/Space.o drivers/net/loopback.o drivers/net/phy/built-in.o drivers/net/ethernet/built-in.o drivers/net/wireless/built-in.o 

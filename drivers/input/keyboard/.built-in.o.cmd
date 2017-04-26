@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/keyboard/built-in.o drivers/input/keyboard/atkbd.o drivers/input/keyboard/gpio_keys.o 

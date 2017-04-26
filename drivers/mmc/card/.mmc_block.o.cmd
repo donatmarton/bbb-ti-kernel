@@ -1,0 +1,1 @@
+cmd_drivers/mmc/card/mmc_block.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/mmc/card/mmc_block.o drivers/mmc/card/block.o drivers/mmc/card/queue.o 

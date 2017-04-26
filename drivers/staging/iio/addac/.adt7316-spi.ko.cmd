@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/addac/adt7316-spi.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/addac/adt7316-spi.ko drivers/staging/iio/addac/adt7316-spi.o drivers/staging/iio/addac/adt7316-spi.mod.o

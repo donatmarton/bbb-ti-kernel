@@ -1,0 +1,1 @@
+cmd_sound/usb/line6/snd-usb-variax.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o sound/usb/line6/snd-usb-variax.o sound/usb/line6/variax.o 

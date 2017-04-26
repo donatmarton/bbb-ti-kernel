@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-appleir.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hid/hid-appleir.ko drivers/hid/hid-appleir.o drivers/hid/hid-appleir.mod.o

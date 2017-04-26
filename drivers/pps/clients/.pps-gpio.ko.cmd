@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-gpio.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/pps/clients/pps-gpio.ko drivers/pps/clients/pps-gpio.o drivers/pps/clients/pps-gpio.mod.o

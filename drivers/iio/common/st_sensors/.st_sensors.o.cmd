@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/st_sensors/st_sensors.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/common/st_sensors/st_sensors.o drivers/iio/common/st_sensors/st_sensors_core.o drivers/iio/common/st_sensors/st_sensors_buffer.o drivers/iio/common/st_sensors/st_sensors_trigger.o 

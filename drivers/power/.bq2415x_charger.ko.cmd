@@ -1,0 +1,1 @@
+cmd_drivers/power/bq2415x_charger.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/power/bq2415x_charger.ko drivers/power/bq2415x_charger.o drivers/power/bq2415x_charger.mod.o

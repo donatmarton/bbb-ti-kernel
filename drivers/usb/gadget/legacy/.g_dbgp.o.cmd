@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_dbgp.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/gadget/legacy/g_dbgp.o drivers/usb/gadget/legacy/dbgp.o 

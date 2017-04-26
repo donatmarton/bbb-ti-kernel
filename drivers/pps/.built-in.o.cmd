@@ -1,0 +1,1 @@
+cmd_drivers/pps/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/pps/built-in.o drivers/pps/pps_core.o drivers/pps/clients/built-in.o drivers/pps/generators/built-in.o 

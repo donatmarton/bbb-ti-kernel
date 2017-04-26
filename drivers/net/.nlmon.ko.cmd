@@ -1,0 +1,1 @@
+cmd_drivers/net/nlmon.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/nlmon.ko drivers/net/nlmon.o drivers/net/nlmon.mod.o

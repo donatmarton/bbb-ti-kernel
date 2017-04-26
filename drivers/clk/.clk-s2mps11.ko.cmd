@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-s2mps11.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/clk/clk-s2mps11.ko drivers/clk/clk-s2mps11.o drivers/clk/clk-s2mps11.mod.o

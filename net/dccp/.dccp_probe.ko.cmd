@@ -1,0 +1,1 @@
+cmd_net/dccp/dccp_probe.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/dccp/dccp_probe.ko net/dccp/dccp_probe.o net/dccp/dccp_probe.mod.o

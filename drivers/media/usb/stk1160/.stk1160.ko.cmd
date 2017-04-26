@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/stk1160/stk1160.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/stk1160/stk1160.ko drivers/media/usb/stk1160/stk1160.o drivers/media/usb/stk1160/stk1160.mod.o

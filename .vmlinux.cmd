@@ -1,0 +1,1 @@
+cmd_vmlinux := /bin/bash scripts/link-vmlinux.sh /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL  -p --no-undefined -X --pic-veneer --build-id  -X

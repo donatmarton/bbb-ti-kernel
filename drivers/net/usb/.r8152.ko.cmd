@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/r8152.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/usb/r8152.ko drivers/net/usb/r8152.o drivers/net/usb/r8152.mod.o

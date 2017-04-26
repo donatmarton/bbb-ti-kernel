@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/omap2/dss/built-in.o :=  rm -f drivers/video/fbdev/omap2/dss/built-in.o; /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcsD drivers/video/fbdev/omap2/dss/built-in.o

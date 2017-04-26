@@ -1,0 +1,9 @@
+kernel/drivers/regulator/act8865-regulator.ko
+kernel/drivers/regulator/fan53555.ko
+kernel/drivers/regulator/mc13783-regulator.ko
+kernel/drivers/regulator/mc13892-regulator.ko
+kernel/drivers/regulator/mc13xxx-regulator-core.ko
+kernel/drivers/regulator/s2mpa01.ko
+kernel/drivers/regulator/s2mps11.ko
+kernel/drivers/regulator/s5m8767.ko
+kernel/drivers/regulator/vexpress.ko

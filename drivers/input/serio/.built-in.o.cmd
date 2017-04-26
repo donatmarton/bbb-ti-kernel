@@ -1,0 +1,1 @@
+cmd_drivers/input/serio/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/input/serio/built-in.o drivers/input/serio/serio.o drivers/input/serio/serport.o drivers/input/serio/libps2.o 

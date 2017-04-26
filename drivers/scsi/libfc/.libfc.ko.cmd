@@ -1,0 +1,1 @@
+cmd_drivers/scsi/libfc/libfc.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/scsi/libfc/libfc.ko drivers/scsi/libfc/libfc.o drivers/scsi/libfc/libfc.mod.o

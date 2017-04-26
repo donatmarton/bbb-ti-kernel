@@ -1,0 +1,1 @@
+cmd_net/nfc/hci/hci.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/nfc/hci/hci.o net/nfc/hci/core.o net/nfc/hci/hcp.o net/nfc/hci/command.o net/nfc/hci/llc.o net/nfc/hci/llc_nop.o net/nfc/hci/llc_shdlc.o 

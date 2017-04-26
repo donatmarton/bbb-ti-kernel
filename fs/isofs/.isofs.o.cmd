@@ -1,0 +1,1 @@
+cmd_fs/isofs/isofs.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/isofs/isofs.o fs/isofs/namei.o fs/isofs/inode.o fs/isofs/dir.o fs/isofs/util.o fs/isofs/rock.o fs/isofs/export.o fs/isofs/joliet.o fs/isofs/compress.o 

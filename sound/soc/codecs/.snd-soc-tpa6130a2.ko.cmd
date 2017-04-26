@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-tpa6130a2.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-tpa6130a2.ko sound/soc/codecs/snd-soc-tpa6130a2.o sound/soc/codecs/snd-soc-tpa6130a2.mod.o

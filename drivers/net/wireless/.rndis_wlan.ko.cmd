@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rndis_wlan.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rndis_wlan.ko drivers/net/wireless/rndis_wlan.o drivers/net/wireless/rndis_wlan.mod.o

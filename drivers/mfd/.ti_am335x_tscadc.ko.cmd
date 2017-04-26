@@ -1,0 +1,1 @@
+cmd_drivers/mfd/ti_am335x_tscadc.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mfd/ti_am335x_tscadc.ko drivers/mfd/ti_am335x_tscadc.o drivers/mfd/ti_am335x_tscadc.mod.o

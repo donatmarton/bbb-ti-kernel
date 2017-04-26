@@ -1,0 +1,127 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x2c197ea3, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x7b8c3a36, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0x550fdba2, __VMLINUX_SYMBOL_STR(alloc_disk) },
+	{ 0xff178f6, __VMLINUX_SYMBOL_STR(__aeabi_idivmod) },
+	{ 0x8dc00423, __VMLINUX_SYMBOL_STR(blk_cleanup_queue) },
+	{ 0x7e42e836, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x97255bdf, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0x3a9b6fb9, __VMLINUX_SYMBOL_STR(blk_unregister_region) },
+	{ 0x67f1d6ab, __VMLINUX_SYMBOL_STR(blk_mq_start_request) },
+	{ 0x7aa74eec, __VMLINUX_SYMBOL_STR(blk_mq_unfreeze_queue) },
+	{ 0xda97e5a5, __VMLINUX_SYMBOL_STR(kobject_uevent) },
+	{ 0xd297ff6b, __VMLINUX_SYMBOL_STR(file_path) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+	{ 0x28cc25db, __VMLINUX_SYMBOL_STR(arm_copy_from_user) },
+	{ 0x62b72b0d, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0x75e2edae, __VMLINUX_SYMBOL_STR(vfs_fsync) },
+	{ 0xdb553086, __VMLINUX_SYMBOL_STR(bio_advance) },
+	{ 0xc9438f21, __VMLINUX_SYMBOL_STR(blk_mq_freeze_queue) },
+	{ 0xad61a4d4, __VMLINUX_SYMBOL_STR(blk_mq_complete_request) },
+	{ 0xaf0f167f, __VMLINUX_SYMBOL_STR(blk_queue_flush) },
+	{ 0x8e087afb, __VMLINUX_SYMBOL_STR(idr_for_each) },
+	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
+	{ 0x906099bd, __VMLINUX_SYMBOL_STR(sysfs_remove_group) },
+	{ 0x492621b9, __VMLINUX_SYMBOL_STR(__alloc_pages_nodemask) },
+	{ 0xe564cc94, __VMLINUX_SYMBOL_STR(kthread_create_on_node) },
+	{ 0x22588ac1, __VMLINUX_SYMBOL_STR(nonseekable_open) },
+	{ 0xf4fa543b, __VMLINUX_SYMBOL_STR(arm_copy_to_user) },
+	{ 0x1a9d8427, __VMLINUX_SYMBOL_STR(invalidate_bdev) },
+	{ 0x31bf9fbc, __VMLINUX_SYMBOL_STR(blk_mq_init_queue) },
+	{ 0xd1a5deac, __VMLINUX_SYMBOL_STR(kmap_atomic) },
+	{ 0x1e7a68bc, __VMLINUX_SYMBOL_STR(vfs_iter_write) },
+	{ 0xa01ec12f, __VMLINUX_SYMBOL_STR(misc_register) },
+	{ 0x8c279349, __VMLINUX_SYMBOL_STR(iov_iter_bvec) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0x15f29fab, __VMLINUX_SYMBOL_STR(set_device_ro) },
+	{ 0x706c5a65, __VMLINUX_SYMBOL_STR(preempt_count_sub) },
+	{ 0x6756906f, __VMLINUX_SYMBOL_STR(idr_destroy) },
+	{ 0xe8a19e86, __VMLINUX_SYMBOL_STR(flush_kthread_worker) },
+	{ 0xdc798d37, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0xaf0d0b73, __VMLINUX_SYMBOL_STR(kthread_stop) },
+	{ 0x8f7a5832, __VMLINUX_SYMBOL_STR(sysfs_create_group) },
+	{ 0xcf08c24, __VMLINUX_SYMBOL_STR(blk_queue_max_discard_sectors) },
+	{ 0x251b483d, __VMLINUX_SYMBOL_STR(del_gendisk) },
+	{ 0xd4628b98, __VMLINUX_SYMBOL_STR(blk_mq_free_tag_set) },
+	{ 0xc636668e, __VMLINUX_SYMBOL_STR(__init_kthread_worker) },
+	{ 0xa1c76e0a, __VMLINUX_SYMBOL_STR(_cond_resched) },
+	{ 0x3d85a60d, __VMLINUX_SYMBOL_STR(blk_register_region) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0xe16b893b, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0xed93f29e, __VMLINUX_SYMBOL_STR(__kunmap_atomic) },
+	{ 0x71a50dbc, __VMLINUX_SYMBOL_STR(register_blkdev) },
+	{ 0xa634b079, __VMLINUX_SYMBOL_STR(noop_llseek) },
+	{ 0x8bfd8946, __VMLINUX_SYMBOL_STR(idr_alloc) },
+	{ 0x43b0c9c3, __VMLINUX_SYMBOL_STR(preempt_schedule) },
+	{ 0x955b0e2e, __VMLINUX_SYMBOL_STR(kthread_worker_fn) },
+	{ 0x394fd24c, __VMLINUX_SYMBOL_STR(fput) },
+	{ 0xe20d115b, __VMLINUX_SYMBOL_STR(get_disk) },
+	{ 0x6ae0f10b, __VMLINUX_SYMBOL_STR(contig_page_data) },
+	{ 0x4c0745bf, __VMLINUX_SYMBOL_STR(idr_remove) },
+	{ 0xb5a459dc, __VMLINUX_SYMBOL_STR(unregister_blkdev) },
+	{ 0x34a26c4e, __VMLINUX_SYMBOL_STR(queue_kthread_work) },
+	{ 0x2d9b9ea6, __VMLINUX_SYMBOL_STR(module_put) },
+	{ 0xc6cbbc89, __VMLINUX_SYMBOL_STR(capable) },
+	{ 0x6be960f4, __VMLINUX_SYMBOL_STR(__free_pages) },
+	{ 0x8fc796ea, __VMLINUX_SYMBOL_STR(idr_find_slowpath) },
+	{ 0x7d3b8f7, __VMLINUX_SYMBOL_STR(bd_set_size) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x2fd85baf, __VMLINUX_SYMBOL_STR(___ratelimit) },
+	{ 0x7c84cf72, __VMLINUX_SYMBOL_STR(vfs_iter_read) },
+	{ 0xdb6afd09, __VMLINUX_SYMBOL_STR(put_disk) },
+	{ 0x8d03f28c, __VMLINUX_SYMBOL_STR(bdgrab) },
+	{ 0xd65172e, __VMLINUX_SYMBOL_STR(wake_up_process) },
+	{ 0xfbe39272, __VMLINUX_SYMBOL_STR(blk_mq_alloc_tag_set) },
+	{ 0xcaa1a2be, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0xd74f9f2e, __VMLINUX_SYMBOL_STR(__module_get) },
+	{ 0xef4930e4, __VMLINUX_SYMBOL_STR(blkdev_reread_part) },
+	{ 0x1e047854, __VMLINUX_SYMBOL_STR(warn_slowpath_fmt) },
+	{ 0x48fdee4f, __VMLINUX_SYMBOL_STR(__blkdev_reread_part) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x46f1ea89, __VMLINUX_SYMBOL_STR(__sb_end_write) },
+	{ 0x6a3868ff, __VMLINUX_SYMBOL_STR(add_disk) },
+	{ 0x9fdc6284, __VMLINUX_SYMBOL_STR(set_user_nice) },
+	{ 0xb0e47ccb, __VMLINUX_SYMBOL_STR(fget) },
+	{ 0xca4325ea, __VMLINUX_SYMBOL_STR(__sb_start_write) },
+	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0x99bb8806, __VMLINUX_SYMBOL_STR(memmove) },
+	{ 0x6b21f7f, __VMLINUX_SYMBOL_STR(set_blocksize) },
+	{ 0xf229424a, __VMLINUX_SYMBOL_STR(preempt_count_add) },
+	{ 0x1d2e1551, __VMLINUX_SYMBOL_STR(zero_fill_bio) },
+	{ 0x318b9d25, __VMLINUX_SYMBOL_STR(vfs_getattr) },
+	{ 0x97c99553, __VMLINUX_SYMBOL_STR(blk_mq_map_queue) },
+	{ 0xf8e4433c, __VMLINUX_SYMBOL_STR(misc_deregister) },
+	{ 0xa89a2b08, __VMLINUX_SYMBOL_STR(bdput) },
+	{ 0xb9a1aebe, __VMLINUX_SYMBOL_STR(flush_dcache_page) },
+	{ 0x9e931cfd, __VMLINUX_SYMBOL_STR(try_module_get) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+

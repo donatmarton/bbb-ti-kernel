@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/hid-sensor-gyro-3d.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/gyro/hid-sensor-gyro-3d.ko drivers/iio/gyro/hid-sensor-gyro-3d.o drivers/iio/gyro/hid-sensor-gyro-3d.mod.o

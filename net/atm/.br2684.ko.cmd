@@ -1,0 +1,1 @@
+cmd_net/atm/br2684.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/atm/br2684.ko net/atm/br2684.o net/atm/br2684.mod.o

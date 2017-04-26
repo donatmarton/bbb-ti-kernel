@@ -1,0 +1,1 @@
+cmd_fs/nfs/filelayout/nfs_layout_nfsv41_files.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/nfs/filelayout/nfs_layout_nfsv41_files.o fs/nfs/filelayout/filelayout.o fs/nfs/filelayout/filelayoutdev.o 

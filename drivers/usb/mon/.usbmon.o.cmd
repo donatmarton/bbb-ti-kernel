@@ -1,0 +1,1 @@
+cmd_drivers/usb/mon/usbmon.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/mon/usbmon.o drivers/usb/mon/mon_main.o drivers/usb/mon/mon_stat.o drivers/usb/mon/mon_text.o drivers/usb/mon/mon_bin.o 

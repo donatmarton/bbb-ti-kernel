@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mpa01.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/regulator/s2mpa01.ko drivers/regulator/s2mpa01.o drivers/regulator/s2mpa01.mod.o

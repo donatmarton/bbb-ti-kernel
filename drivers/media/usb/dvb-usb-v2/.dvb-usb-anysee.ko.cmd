@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.mod.o

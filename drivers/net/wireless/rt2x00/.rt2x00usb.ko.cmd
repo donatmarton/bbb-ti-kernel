@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2x00/rt2x00usb.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2x00/rt2x00usb.ko drivers/net/wireless/rt2x00/rt2x00usb.o drivers/net/wireless/rt2x00/rt2x00usb.mod.o

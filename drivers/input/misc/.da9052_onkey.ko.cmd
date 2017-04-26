@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/da9052_onkey.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/da9052_onkey.ko drivers/input/misc/da9052_onkey.o drivers/input/misc/da9052_onkey.mod.o

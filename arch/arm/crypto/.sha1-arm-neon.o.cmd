@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha1-arm-neon.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o arch/arm/crypto/sha1-arm-neon.o arch/arm/crypto/sha1-armv7-neon.o arch/arm/crypto/sha1_neon_glue.o 

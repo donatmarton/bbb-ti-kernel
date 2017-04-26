@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas/usb8xxx.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/libertas/usb8xxx.o drivers/net/wireless/libertas/if_usb.o 

@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/kbtab.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/tablet/kbtab.ko drivers/input/tablet/kbtab.o drivers/input/tablet/kbtab.mod.o

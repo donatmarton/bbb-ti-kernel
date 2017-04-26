@@ -1,0 +1,1 @@
+cmd_drivers/crypto/omap-aes.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/crypto/omap-aes.ko drivers/crypto/omap-aes.o drivers/crypto/omap-aes.mod.o

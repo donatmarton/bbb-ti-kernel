@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/mc13783-adc.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/mc13783-adc.ko drivers/hwmon/mc13783-adc.o drivers/hwmon/mc13783-adc.mod.o

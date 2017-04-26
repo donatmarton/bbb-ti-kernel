@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dibx000_common.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/dibx000_common.ko drivers/media/dvb-frontends/dibx000_common.o drivers/media/dvb-frontends/dibx000_common.mod.o

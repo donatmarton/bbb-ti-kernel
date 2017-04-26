@@ -1,0 +1,1 @@
+cmd_net/bridge/br_netfilter.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/bridge/br_netfilter.o net/bridge/br_netfilter_hooks.o net/bridge/br_netfilter_ipv6.o 

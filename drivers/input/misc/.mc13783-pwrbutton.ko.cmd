@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/mc13783-pwrbutton.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/misc/mc13783-pwrbutton.ko drivers/input/misc/mc13783-pwrbutton.o drivers/input/misc/mc13783-pwrbutton.mod.o

@@ -1,0 +1,1 @@
+cmd_fs/adfs/adfs.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/adfs/adfs.o fs/adfs/dir.o fs/adfs/dir_f.o fs/adfs/dir_fplus.o fs/adfs/file.o fs/adfs/inode.o fs/adfs/map.o fs/adfs/super.o 

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/s5h1411.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/s5h1411.ko drivers/media/dvb-frontends/s5h1411.o drivers/media/dvb-frontends/s5h1411.mod.o

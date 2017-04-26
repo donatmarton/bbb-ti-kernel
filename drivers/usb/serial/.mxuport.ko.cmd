@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/mxuport.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/serial/mxuport.ko drivers/usb/serial/mxuport.o drivers/usb/serial/mxuport.mod.o

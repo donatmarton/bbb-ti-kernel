@@ -1,0 +1,1 @@
+cmd_net/bluetooth/bnep/bnep.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/bluetooth/bnep/bnep.o net/bluetooth/bnep/core.o net/bluetooth/bnep/sock.o net/bluetooth/bnep/netdev.o 

@@ -1,0 +1,1 @@
+cmd_sound/usb/caiaq/snd-usb-caiaq.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/usb/caiaq/snd-usb-caiaq.ko sound/usb/caiaq/snd-usb-caiaq.o sound/usb/caiaq/snd-usb-caiaq.mod.o

@@ -1,0 +1,2 @@
+kernel/net/nfc/nci/nci.ko
+kernel/net/nfc/nci/nci_spi.ko

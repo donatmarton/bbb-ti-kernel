@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/i2c/sil164.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/i2c/sil164.ko drivers/gpu/drm/i2c/sil164.o drivers/gpu/drm/i2c/sil164.mod.o

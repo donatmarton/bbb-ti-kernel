@@ -1,0 +1,1 @@
+cmd_net/atm/atm.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/atm/atm.ko net/atm/atm.o net/atm/atm.mod.o

@@ -1,0 +1,1 @@
+cmd_sound/usb/hiface/snd-usb-hiface.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o sound/usb/hiface/snd-usb-hiface.ko sound/usb/hiface/snd-usb-hiface.o sound/usb/hiface/snd-usb-hiface.mod.o

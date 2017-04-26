@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/touchit213.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/touchit213.ko drivers/input/touchscreen/touchit213.o drivers/input/touchscreen/touchit213.mod.o

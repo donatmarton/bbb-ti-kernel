@@ -1,0 +1,1 @@
+cmd_drivers/scsi/libiscsi.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/scsi/libiscsi.ko drivers/scsi/libiscsi.o drivers/scsi/libiscsi.mod.o

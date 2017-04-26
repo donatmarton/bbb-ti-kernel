@@ -1,0 +1,1 @@
+cmd_fs/befs/befs.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/befs/befs.o fs/befs/datastream.o fs/befs/btree.o fs/befs/super.o fs/befs/inode.o fs/befs/debug.o fs/befs/io.o fs/befs/linuxvfs.o 

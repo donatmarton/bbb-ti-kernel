@@ -1,0 +1,8 @@
+kernel/sound/soc/codecs/snd-soc-sgtl5000.ko
+kernel/sound/soc/codecs/snd-soc-tlv320aic23.ko
+kernel/sound/soc/codecs/snd-soc-tlv320aic23-i2c.ko
+kernel/sound/soc/codecs/snd-soc-tlv320aic31xx.ko
+kernel/sound/soc/codecs/snd-soc-tlv320aic3x.ko
+kernel/sound/soc/codecs/snd-soc-ts3a227e.ko
+kernel/sound/soc/codecs/snd-soc-twl4030.ko
+kernel/sound/soc/codecs/snd-soc-tpa6130a2.ko

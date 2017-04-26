@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/iio/common/built-in.o drivers/iio/common/hid-sensors/built-in.o drivers/iio/common/ms_sensors/built-in.o drivers/iio/common/ssp_sensors/built-in.o drivers/iio/common/st_sensors/built-in.o 

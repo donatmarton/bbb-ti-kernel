@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda10086.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/tda10086.ko drivers/media/dvb-frontends/tda10086.o drivers/media/dvb-frontends/tda10086.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/gyro/adis16060.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/staging/iio/gyro/adis16060.o drivers/staging/iio/gyro/adis16060_core.o 

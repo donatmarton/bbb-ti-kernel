@@ -1,0 +1,1 @@
+cmd_drivers/misc/lis3lv02d/lis3lv02d_spi.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/misc/lis3lv02d/lis3lv02d_spi.ko drivers/misc/lis3lv02d/lis3lv02d_spi.o drivers/misc/lis3lv02d/lis3lv02d_spi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath9k/ath9k_hw.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ath9k/ath9k_hw.ko drivers/net/wireless/ath/ath9k/ath9k_hw.o drivers/net/wireless/ath/ath9k/ath9k_hw.mod.o

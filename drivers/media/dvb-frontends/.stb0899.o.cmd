@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stb0899.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/dvb-frontends/stb0899.o drivers/media/dvb-frontends/stb0899_drv.o drivers/media/dvb-frontends/stb0899_algo.o 

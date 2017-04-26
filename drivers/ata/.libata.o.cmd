@@ -1,0 +1,1 @@
+cmd_drivers/ata/libata.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/ata/libata.o drivers/ata/libata-core.o drivers/ata/libata-scsi.o drivers/ata/libata-eh.o drivers/ata/libata-transport.o drivers/ata/libata-trace.o drivers/ata/libata-sff.o drivers/ata/libata-pmp.o 

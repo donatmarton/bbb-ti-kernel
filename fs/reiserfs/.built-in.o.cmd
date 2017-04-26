@@ -1,0 +1,1 @@
+cmd_fs/reiserfs/built-in.o :=  rm -f fs/reiserfs/built-in.o; /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcsD fs/reiserfs/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-cxusb.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-cxusb.ko drivers/media/usb/dvb-usb/dvb-usb-cxusb.o drivers/media/usb/dvb-usb/dvb-usb-cxusb.mod.o

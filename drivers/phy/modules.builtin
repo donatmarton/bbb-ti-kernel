@@ -1,0 +1,2 @@
+kernel/drivers/phy/phy-omap-control.ko
+kernel/drivers/phy/phy-omap-usb2.ko

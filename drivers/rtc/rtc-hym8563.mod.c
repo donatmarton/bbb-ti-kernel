@@ -1,0 +1,58 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x2c197ea3, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x89cd8667, __VMLINUX_SYMBOL_STR(i2c_del_driver) },
+	{ 0x9d41e38f, __VMLINUX_SYMBOL_STR(i2c_register_driver) },
+	{ 0xce2840e7, __VMLINUX_SYMBOL_STR(irq_set_irq_wake) },
+	{ 0xc7da6011, __VMLINUX_SYMBOL_STR(__dynamic_dev_dbg) },
+	{ 0xb6758350, __VMLINUX_SYMBOL_STR(of_clk_add_provider) },
+	{ 0x6d6a5b98, __VMLINUX_SYMBOL_STR(of_clk_src_simple_get) },
+	{ 0xfb499aa7, __VMLINUX_SYMBOL_STR(clk_register) },
+	{ 0x45560b7e, __VMLINUX_SYMBOL_STR(of_property_read_string) },
+	{ 0xa59fe963, __VMLINUX_SYMBOL_STR(devm_rtc_device_register) },
+	{ 0xb62a6155, __VMLINUX_SYMBOL_STR(devm_request_threaded_irq) },
+	{ 0x15a7a500, __VMLINUX_SYMBOL_STR(device_set_wakeup_capable) },
+	{ 0x8caa767c, __VMLINUX_SYMBOL_STR(devm_kmalloc) },
+	{ 0xef1e4705, __VMLINUX_SYMBOL_STR(dev_err) },
+	{ 0x62b72b0d, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0xe16b893b, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x2f0664db, __VMLINUX_SYMBOL_STR(dev_warn) },
+	{ 0xb6936ffe, __VMLINUX_SYMBOL_STR(_bcd2bin) },
+	{ 0x9d40e838, __VMLINUX_SYMBOL_STR(i2c_smbus_read_i2c_block_data) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x4dd95db, __VMLINUX_SYMBOL_STR(i2c_smbus_write_i2c_block_data) },
+	{ 0x80ca5026, __VMLINUX_SYMBOL_STR(_bin2bcd) },
+	{ 0x8f678b07, __VMLINUX_SYMBOL_STR(__stack_chk_guard) },
+	{ 0xd1b3c58f, __VMLINUX_SYMBOL_STR(i2c_smbus_write_byte_data) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x70dae047, __VMLINUX_SYMBOL_STR(i2c_smbus_read_byte_data) },
+	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0xb1ad28e0, __VMLINUX_SYMBOL_STR(__gnu_mcount_nc) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+
+MODULE_ALIAS("of:N*T*Chaoyu,hym8563*");
+MODULE_ALIAS("i2c:hym8563");

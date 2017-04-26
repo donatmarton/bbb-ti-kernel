@@ -1,0 +1,4 @@
+kernel/drivers/video/backlight/gpio_backlight.ko
+kernel/drivers/video/backlight/pwm_bl.ko
+kernel/drivers/video/fbdev/udlfb.ko
+kernel/drivers/video/fbdev/smscufx.ko

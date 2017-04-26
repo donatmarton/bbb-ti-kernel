@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_xirlink_cit.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/usb/gspca/gspca_xirlink_cit.o drivers/media/usb/gspca/xirlink_cit.o 

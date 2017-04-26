@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/warrior.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/joystick/warrior.ko drivers/input/joystick/warrior.o drivers/input/joystick/warrior.mod.o

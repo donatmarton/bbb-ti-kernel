@@ -1,0 +1,1 @@
+cmd_arch/arm/vdso/vdso.so := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objcopy -S  arch/arm/vdso/vdso.so.dbg arch/arm/vdso/vdso.so

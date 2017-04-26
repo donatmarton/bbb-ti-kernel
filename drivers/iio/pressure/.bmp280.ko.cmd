@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/bmp280.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/pressure/bmp280.ko drivers/iio/pressure/bmp280.o drivers/iio/pressure/bmp280.mod.o

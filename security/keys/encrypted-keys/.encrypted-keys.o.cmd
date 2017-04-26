@@ -1,0 +1,1 @@
+cmd_security/keys/encrypted-keys/encrypted-keys.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o security/keys/encrypted-keys/encrypted-keys.o security/keys/encrypted-keys/encrypted.o security/keys/encrypted-keys/ecryptfs_format.o 

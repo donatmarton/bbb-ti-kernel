@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/adc/ad7606_spi.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/adc/ad7606_spi.ko drivers/staging/iio/adc/ad7606_spi.o drivers/staging/iio/adc/ad7606_spi.mod.o

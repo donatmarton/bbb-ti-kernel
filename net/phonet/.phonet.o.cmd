@@ -1,0 +1,1 @@
+cmd_net/phonet/phonet.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/phonet/phonet.o net/phonet/pn_dev.o net/phonet/pn_netlink.o net/phonet/socket.o net/phonet/datagram.o net/phonet/sysctl.o net/phonet/af_phonet.o 

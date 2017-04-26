@@ -1,0 +1,1 @@
+cmd_drivers/block/aoe/aoe.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/block/aoe/aoe.o drivers/block/aoe/aoeblk.o drivers/block/aoe/aoechr.o drivers/block/aoe/aoecmd.o drivers/block/aoe/aoedev.o drivers/block/aoe/aoemain.o drivers/block/aoe/aoenet.o 

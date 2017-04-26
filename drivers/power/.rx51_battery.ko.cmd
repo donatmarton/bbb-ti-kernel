@@ -1,0 +1,1 @@
+cmd_drivers/power/rx51_battery.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/power/rx51_battery.ko drivers/power/rx51_battery.o drivers/power/rx51_battery.mod.o

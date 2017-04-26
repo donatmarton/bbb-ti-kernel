@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/vz89x.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/chemical/vz89x.ko drivers/iio/chemical/vz89x.o drivers/iio/chemical/vz89x.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_uac2.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/usb/gadget/function/usb_f_uac2.ko drivers/usb/gadget/function/usb_f_uac2.o drivers/usb/gadget/function/usb_f_uac2.mod.o

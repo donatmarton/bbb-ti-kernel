@@ -1,0 +1,1 @@
+cmd_fs/bfs/bfs.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/bfs/bfs.o fs/bfs/inode.o fs/bfs/file.o fs/bfs/dir.o 

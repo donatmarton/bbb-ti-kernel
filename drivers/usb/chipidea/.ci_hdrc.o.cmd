@@ -1,0 +1,1 @@
+cmd_drivers/usb/chipidea/ci_hdrc.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/chipidea/ci_hdrc.o drivers/usb/chipidea/core.o drivers/usb/chipidea/otg.o drivers/usb/chipidea/udc.o drivers/usb/chipidea/host.o 

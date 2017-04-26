@@ -1,0 +1,1 @@
+cmd_net/sched/cls_basic.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/sched/cls_basic.ko net/sched/cls_basic.o net/sched/cls_basic.mod.o

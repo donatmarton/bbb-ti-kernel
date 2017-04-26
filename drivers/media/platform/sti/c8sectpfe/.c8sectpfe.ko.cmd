@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/sti/c8sectpfe/c8sectpfe.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/platform/sti/c8sectpfe/c8sectpfe.ko drivers/media/platform/sti/c8sectpfe/c8sectpfe.o drivers/media/platform/sti/c8sectpfe/c8sectpfe.mod.o

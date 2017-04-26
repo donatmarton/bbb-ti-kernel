@@ -1,0 +1,1 @@
+cmd_fs/overlayfs/overlay.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/overlayfs/overlay.o fs/overlayfs/super.o fs/overlayfs/inode.o fs/overlayfs/dir.o fs/overlayfs/readdir.o fs/overlayfs/copy_up.o 

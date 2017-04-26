@@ -1,0 +1,9 @@
+kernel/drivers/net/ethernet/ti/cpsw-common.ko
+kernel/drivers/net/ethernet/ti/davinci_mdio.ko
+kernel/drivers/net/ethernet/ti/davinci_cpdma.ko
+kernel/drivers/net/ethernet/ti/cpsw_ale.ko
+kernel/drivers/net/ethernet/ti/ti_cpsw.ko
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/smsc.ko
+kernel/drivers/net/phy/dp83848.ko
+kernel/drivers/net/phy/micrel.ko

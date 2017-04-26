@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/ttm/ttm.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/gpu/drm/ttm/ttm.ko drivers/gpu/drm/ttm/ttm.o drivers/gpu/drm/ttm/ttm.mod.o

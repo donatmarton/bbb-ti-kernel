@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/sch56xx-common.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/sch56xx-common.ko drivers/hwmon/sch56xx-common.o drivers/hwmon/sch56xx-common.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/staging/built-in.o drivers/staging/staging.o drivers/staging/media/built-in.o drivers/staging/android/built-in.o 

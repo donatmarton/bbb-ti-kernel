@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si470x/radio-i2c-si470x.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/media/radio/si470x/radio-i2c-si470x.o drivers/media/radio/si470x/radio-si470x-i2c.o drivers/media/radio/si470x/radio-si470x-common.o 

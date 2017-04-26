@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_ss_lb.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/usb/gadget/function/usb_f_ss_lb.o drivers/usb/gadget/function/f_loopback.o drivers/usb/gadget/function/f_sourcesink.o 

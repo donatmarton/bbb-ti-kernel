@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/stk8ba50.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/iio/accel/stk8ba50.ko drivers/iio/accel/stk8ba50.o drivers/iio/accel/stk8ba50.mod.o

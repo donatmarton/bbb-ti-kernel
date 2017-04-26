@@ -1,0 +1,1 @@
+cmd_lib/zlib_inflate/zlib_inflate.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o lib/zlib_inflate/zlib_inflate.o lib/zlib_inflate/inffast.o lib/zlib_inflate/inflate.o lib/zlib_inflate/infutil.o lib/zlib_inflate/inftrees.o lib/zlib_inflate/inflate_syms.o 

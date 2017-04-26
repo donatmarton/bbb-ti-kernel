@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-it913x-v2.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-it913x-v2.ko drivers/media/rc/keymaps/rc-it913x-v2.o drivers/media/rc/keymaps/rc-it913x-v2.mod.o

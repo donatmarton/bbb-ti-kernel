@@ -1,0 +1,2 @@
+kernel/drivers/phy/phy-ti-pipe3.ko
+kernel/drivers/phy/phy-exynos-usb2.ko

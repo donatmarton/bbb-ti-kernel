@@ -1,0 +1,1 @@
+cmd_drivers/mtd/onenand/onenand.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/mtd/onenand/onenand.o drivers/mtd/onenand/onenand_base.o drivers/mtd/onenand/onenand_bbt.o 

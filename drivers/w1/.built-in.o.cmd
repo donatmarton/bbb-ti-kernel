@@ -1,0 +1,1 @@
+cmd_drivers/w1/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/w1/built-in.o drivers/w1/wire.o drivers/w1/masters/built-in.o drivers/w1/slaves/built-in.o 

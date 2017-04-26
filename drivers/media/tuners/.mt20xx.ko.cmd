@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mt20xx.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/media/tuners/mt20xx.ko drivers/media/tuners/mt20xx.o drivers/media/tuners/mt20xx.mod.o

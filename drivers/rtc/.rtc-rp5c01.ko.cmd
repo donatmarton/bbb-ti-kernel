@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-rp5c01.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/rtc/rtc-rp5c01.ko drivers/rtc/rtc-rp5c01.o drivers/rtc/rtc-rp5c01.mod.o

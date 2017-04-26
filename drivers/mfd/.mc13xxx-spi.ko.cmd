@@ -1,0 +1,1 @@
+cmd_drivers/mfd/mc13xxx-spi.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/mfd/mc13xxx-spi.ko drivers/mfd/mc13xxx-spi.o drivers/mfd/mc13xxx-spi.mod.o

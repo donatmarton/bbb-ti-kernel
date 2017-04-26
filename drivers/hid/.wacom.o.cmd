@@ -1,0 +1,1 @@
+cmd_drivers/hid/wacom.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/hid/wacom.o drivers/hid/wacom_wac.o drivers/hid/wacom_sys.o 

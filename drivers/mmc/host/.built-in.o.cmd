@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/mmc/host/built-in.o drivers/mmc/host/sdhci.o drivers/mmc/host/omap.o drivers/mmc/host/omap_hsmmc.o drivers/mmc/host/dw_mmc.o drivers/mmc/host/dw_mmc-pltfm.o drivers/mmc/host/sdhci-pltfm.o 

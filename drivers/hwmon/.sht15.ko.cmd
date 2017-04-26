@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/sht15.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/hwmon/sht15.ko drivers/hwmon/sht15.o drivers/hwmon/sht15.mod.o

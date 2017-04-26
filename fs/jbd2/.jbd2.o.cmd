@@ -1,0 +1,1 @@
+cmd_fs/jbd2/jbd2.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o fs/jbd2/jbd2.o fs/jbd2/transaction.o fs/jbd2/commit.o fs/jbd2/recovery.o fs/jbd2/checkpoint.o fs/jbd2/revoke.o fs/jbd2/journal.o 

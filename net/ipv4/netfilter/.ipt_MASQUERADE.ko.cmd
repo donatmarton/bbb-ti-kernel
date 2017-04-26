@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/ipt_MASQUERADE.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o net/ipv4/netfilter/ipt_MASQUERADE.ko net/ipv4/netfilter/ipt_MASQUERADE.o net/ipv4/netfilter/ipt_MASQUERADE.mod.o

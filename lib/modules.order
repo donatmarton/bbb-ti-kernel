@@ -1,0 +1,17 @@
+kernel/lib/lz4/lz4_compress.ko
+kernel/lib/lz4/lz4hc_compress.ko
+kernel/lib/test_bpf.ko
+kernel/lib/test_firmware.ko
+kernel/lib/test_user_copy.ko
+kernel/lib/test_static_keys.ko
+kernel/lib/test_static_key_base.ko
+kernel/lib/crc-ccitt.ko
+kernel/lib/crc-itu-t.ko
+kernel/lib/crc7.ko
+kernel/lib/ts_kmp.ko
+kernel/lib/ts_bm.ko
+kernel/lib/ts_fsm.ko
+kernel/lib/notifier-error-inject.ko
+kernel/lib/pm-notifier-error-inject.ko
+kernel/lib/lru_cache.ko
+kernel/lib/cordic.ko

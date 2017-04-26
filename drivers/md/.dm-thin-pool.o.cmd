@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-thin-pool.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/md/dm-thin-pool.o drivers/md/dm-thin.o drivers/md/dm-thin-metadata.o 

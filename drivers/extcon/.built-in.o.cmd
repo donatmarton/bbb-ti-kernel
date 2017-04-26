@@ -1,0 +1,1 @@
+cmd_drivers/extcon/built-in.o :=  /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/extcon/built-in.o drivers/extcon/extcon.o drivers/extcon/extcon-gpio.o drivers/extcon/extcon-palmas.o drivers/extcon/extcon-usb-gpio.o 

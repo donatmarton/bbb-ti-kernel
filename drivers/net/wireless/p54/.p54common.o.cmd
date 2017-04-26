@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/p54/p54common.o := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/wireless/p54/p54common.o drivers/net/wireless/p54/eeprom.o drivers/net/wireless/p54/fwio.o drivers/net/wireless/p54/txrx.o drivers/net/wireless/p54/main.o drivers/net/wireless/p54/led.o 

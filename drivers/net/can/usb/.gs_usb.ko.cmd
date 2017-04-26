@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/gs_usb.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/net/can/usb/gs_usb.ko drivers/net/can/usb/gs_usb.o drivers/net/can/usb/gs_usb.mod.o

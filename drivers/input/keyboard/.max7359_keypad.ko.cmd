@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/max7359_keypad.ko := /home/marci/qt-build/linux/bb-kernel/dl/gcc-linaro-5.4.1-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/input/keyboard/max7359_keypad.ko drivers/input/keyboard/max7359_keypad.o drivers/input/keyboard/max7359_keypad.mod.o
